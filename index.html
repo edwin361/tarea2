@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>tarea2</title>
+	<title>Diferentes tipos de selectores</title>
 	<meta charset="utf-8">
 	<meta name="Descripcion">
 	<meta charset="keywords">
@@ -9,29 +9,55 @@
 </head>
 <!-- Contenido de mi pagina -->
 <body>
-	<h1>TODO ES UNA CAJA</h1>
-	<p>Uno de los conceptos mas importantes que debeemos recordar a la hora de elborar un CSS es que todoos y cada uno de los elementos de mi pagina web son cajas</p>
-	<p>Eso exactamente, ¿ que significa ?. Significa que todos los elementos que representan algo en HTML tienen la siguiente estructura visual:</p>
-	Con ese modelo debemos por lo tanto distinguir la siguientes zonas: <img src="./imagenes/imagen1.png">
+	<h1 id="titulo">Css sintaxis y selectores</h1>
+
+	<hr>
+	<h2>Sintaxis CSS</h2>
+	<p>Un conjunto de reglas CSS consta de un selector y un bloque de declaración:</p>
+
+	<img src="./imagenes/selector.gif">
+
 	<ul>
-			<li>El contenido que es lo importante, el texto en las etiquetas de texto en la imagenes etc..
-			</li>
-			<li>
-			Es la distacia que exite en el contenido y el borde de la caja.
-			</li>
-			<li>
-			Es el borde del elemento que marca la division.
-			</li>
-			<li>
-				El margen que es la distancia que es el elemento y el resto de elementos d ela pagina.
+			<li>Los puntos selector para el elemento HTML que desea estilo.
+				<ul>
+					<li>El bloque de declaración contiene uno o más declaraciones separados por punto y coma.
+					</li>
+					<li>
+					Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
+					</li>
+					<li>
+					Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaraciones están rodeados por llaves.
+					</li>
+				</ul>
 			</li>
 	</ul>
-	<h2>Comportamiento de caja (Estilos con la etiqueta style</h2>
-	<p>Los elementos en bloque son elementos que, independientemente de la anchura que tenga, se separa verticalmente de los elementos anteriores y posteriores</p>
-	<p>Es como si "provocaran" un salto de linea antes y uno despues (figuradamnete hablando).</p>
-	<p>En cambio, los elemento en linea se van sucediendo a lo largo de la misma linea, mientras caben, uno detras de otro y izquierda a derecha, cuando no cabne pasan a la linea siguiente. Digamos que fluye dependiendo de la anchura de la pantalla de nuestro navegador</p>
-	<p>Representado esto graficamente seria algo así:</p>
-	<img src="./imagenes/imagen2.png">
-	<h4>Nota: Es muy importen saber que tipo de elementos es cada etiqueta que usamos.</h4>
+
+	<h4 class="ejemplo">Ejemplo de selectores</h4>
+	<div>
+		<p>En el siguiente ejemplo todas <p> elementos serán-centro alineados, con un color de texto de color rojo:</p>
+
+		<img src="./imagenes/imagen3.gif">
+
+		<a target="blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">"Intentalo tu mismo"</a>
+	</div>
+
+	<h3>Selectores css</h3>
+	<p>selectores CSS se utilizan para "encontrar" (o seleccionar) elementos HTML en función de su nombre del elemento, ID, clase, atributo, y mucho más.</p>
+
+	<hr>
+
+	<p class="naranja">El selector de elementos</p>
+
+	<p>12863862187361278361263921786378 &quot;<p>&quot;</p>
+
+	<h4 class="ejemplo">Ejemplo de selectores</h4>
+
+	<div>
+		<p>En el siguiente ejemplo todas <p> elementos serán-centro alineados, con un color de texto de color rojo:</p>
+
+		<img src="./imagenes/imagen3.gif">
+
+		<a target="blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">"Intentalo tu mismo"</a>
+	</div>	
 </body>
 </html>
