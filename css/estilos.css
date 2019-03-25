@@ -1,25 +1,51 @@
-body{font-family: "courir New", courir, monospace;}
-/** Esto es un comentario h4{color: pink;}
-h1{color: red;}
-li{color: blue;}
-h2{color: green;}
-Este es el final del comentario**/
-#titulo {background-color:grey;
-		color:white;
-		font-size:24px;
-	}
 
-.ejemplo{background-color: blue;
+h1{text-align: center;}
+
+legend{border:1px solid black;
+		border-style: solid;
+		border-collapse: black;
+		border-width: thin;
+		border-radius: 25px
+		background-color: white;
+		}
+#fondo1
+		{background-color: grey;
+		border-radius: 25px
+
+		}
+
+#fondo2
+		{background-color: green;
+		border-radius: 25px
+
+		}
+ul{
+	list-style-type:none; /** Esto quita los puntos de las listas **/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**.ejemplo{background-color: blue;
 	color: white;
 } /** Esto se pone de color rosa por la Herencia que tienen las primeras etiquetas **/
 
-.naranja{border:2px solid orange;}
+/** .naranja{border:2px solid orange;} 
 
 /**h2,h3{border:1px solid orange;} **/
-li{color: red;}
+/** li{color: red;}
 li li{color: green;}
 div>a{border:5px solid green;}
 h2+p{background-color: green;}
 p~h3 {background-color: pink;}
-img[alt="ejemplo2"]{border:5`x solid grey;}
+img[alt="ejemplo2"]{border:5`x solid grey;} **/
 
