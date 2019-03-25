@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Diferentes tipos de selectores</title>
+	<title>Tarea2 (version 2)</title>
 	<meta charset="utf-8">
 	<meta name="Descripcion">
 	<meta charset="keywords">
@@ -9,13 +9,109 @@
 </head>
 <!-- Contenido de mi pagina -->
 <body>
-	<h1 id="titulo">Css sintaxis y selectores</h1>
+	<h1>HOJA DE INSCRIPCION</h1>
+	<h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
 
-	<hr>
-	<h2>Sintaxis CSS</h2>
-	<p>Un conjunto de reglas CSS consta de un selector y un bloque de declaración:</p>
+	<form action="#" method="post">
+  		<fieldset class="cosa1" id="fondo1">
+    		<legend>Datos personales</legend>
+    		<table>
+    			<tr>
+    				<td><label for="nombre">nombre:</label></td>
+    				<td><label for="apellido">apellido:</label></td>
+    				<td><label for="dn">dni:</label></td>
+    			</tr>
+    			<tr>
+    				<td>
+    					<input type="text" name="nombre" />
+    				</td>
+    				<td>
+    					<input type="text" name="apellido" />
+    				</td>
+    				<td>
+    					<input type="text" name="dni" />
+    				</td>
+    			</tr>
+    			<tr>
+    				<td><label for="localidad">localidad</label></td>
+    				<td><label for=provincia>provincia</label></td>
+    				<td><label for="fechadenacimiento">fecha de nacimiento</label></td>
+    			</tr>
+    			<tr>
+    				<td>
+    					<input type="text" name="localidad">
+    				</td>
+    				<td>
+    					<select name="provincia">
+    					<option>Santander</option>
+    					<option>Madrid</option>
+						<option>Barcelona</option>
+						<option>Andora</option>
+						<option>Burgos</option>
+    					</select>
+    				</td>
+    				<td>
+    					<input type="text" name="fechadenacimiento">
+    				</td>
+    			</tr>
+    			<tr>
+    				<td colspan="2"><label for="direccion">direccion:</label></td>
+    				<td colspan="2"><label for="codigopostal">codigopostal:</label></td>
+    			</tr>
+    			<tr>
+    				<td colspan="2">
+    					<input type="text" name="direccion" size="40">
+    				</td>
+    				<td>
+    					<input type="text" name="codigopostal">
+    				</td>
+    			</tr>
+    		</table>
+  		</fieldset>
 
-	<img src="./imagenes/selector.gif">
+ 		 <fieldset id="fondo2">
+   			 <legend>Forma de Acceso</legend>
+   			 <ul>
+   			 	<li> <input type="radio" name="directo" value="directo" />
+   			 		directo
+   			 		<ul>
+   			 			<li><input type="radio" name="formadeacceso" value="logse">bachiellerato log modalidad: <input type="text" name="bachielleratologmodalidad" /></li>
+   			 			<li><input type="radio" name="formadeacceso">experimental: <input type="text" name="experimental" /></li>
+   			 			<li><input type="radio" name="formadeacceso">COU Opcion: <input type="text" name="couopcion"></li>
+   			 			<li><input type="radio" name="formadeacceso">FP2: <input type="text" name="bachielleratologmodalidad"></li>
+   			 			<li><input type="radio" name="formadeacceso">Otros (especifique): <input type="text" name="otrosespecifique"></li>
+   			 			<li></li>
+   			 		</ul>
+   			 	</li>
+   			 	<li>
+   			 			<input type="radio" name="formadeacceso" value="prueba" /> prueba libre
+   			 	</li>
+   			 </ul>
+  		</fieldset>
+
+
+  		<fieldset>
+   			 <legend>Documentos Adjuntados</legend>
+   			<table>
+    			<tr>
+    				<td><label for="nombre">nombre:</label></td>
+    				<td><label for="apellido">apellido:</label></td>
+    				<td><label for="dn">dni:</label></td>
+    			</tr>
+    			<tr>
+    				<td>
+    					<input type="text" name="nombre" />
+    				</td>
+    				<td>
+    					<input type="text" name="apellido" />
+    				</td>
+    				<td>
+    					<input type="text" name="dni" />
+    				</td>
+    			</tr>
+    		</table>
+  		</fieldset>
+	</form>
 
 	<ul>
 			<li>Los puntos selector para el elemento HTML que desea estilo.
