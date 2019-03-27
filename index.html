@@ -13,13 +13,13 @@
 	<h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
 
 	<form action="#" method="post">
-  		<fieldset class="cosa1" id="fondo1">
+  		<fieldset id="fondo1" title="Primera parte del formulario con el fondo gris plata">
     		<legend>Datos personales</legend>
     		<table>
     			<tr>
-    				<td><label for="nombre">nombre:</label></td>
-    				<td><label for="apellido">apellido:</label></td>
-    				<td><label for="dn">dni:</label></td>
+    				<td><label title="Aqui en la primera fila que tambien es la colunda uno colocaremos el nombre" lang="español" for="nombre">nombre:</label></td>
+    				<td><label for="apellido" title="Aqui en la primera fila de la colunda dos colocaremos nuestro apellido">apellido:</label></td>
+    				<td><label for="dn" title="Aqui en la primera fila de la tercera colunda colocaremos nuestro dni">dni:</label></td>
     			</tr>
     			<tr>
     				<td>
@@ -33,9 +33,9 @@
     				</td>
     			</tr>
     			<tr>
-    				<td><label for="localidad">localidad</label></td>
-    				<td><label for=provincia>provincia</label></td>
-    				<td><label for="fechadenacimiento">fecha de nacimiento</label></td>
+    				<td><label for="localidad" title="Aqui en la segunda fila de la primera colunda colocaremos nuestra localidad">localidad</label></td>
+    				<td><label for=provincia title="Aqui en la segunda fila de la segunda colunda selecionaremos nuestra provincia">provincia</label></td>
+    				<td><label for="fechadenacimiento" title="Aqui en la segunda fila de la tercera colunda colocaremos nuestra fechade nacimiento">fecha de nacimiento</label></td>
     			</tr>
     			<tr>
     				<td>
@@ -55,8 +55,8 @@
     				</td>
     			</tr>
     			<tr>
-    				<td colspan="2"><label for="direccion">direccion:</label></td>
-    				<td colspan="2"><label for="codigopostal">codigopostal:</label></td>
+    				<td colspan="2"><label for="direccion" title="Aqui en la tercera fila de la primera colunda colocaremos nuestra direccion">direccion:</label></td>
+    				<td colspan="2"><label for="codigopostal" title="Aqui en la tercera fila de la tercera colunda colocaremos nuestro codigo postal">codigo postal:</label></td>
     			</tr>
     			<tr>
     				<td colspan="2">
@@ -69,7 +69,7 @@
     		</table>
   		</fieldset>
 
- 		 <fieldset id="fondo2">
+ 		 <fieldset id="fondo2" title="Esta es la parte del formulario que es de color verde y tiene varias seleciones para ingresar la forma a la que quieres acceder">
    			 <legend>Forma de Acceso</legend>
    			 <ul>
    			 	<li> <input type="radio" name="directo" value="directo" />
@@ -90,70 +90,26 @@
   		</fieldset>
 
 
-  		<fieldset>
-   			 <legend>Documentos Adjuntados</legend>
+  		<fieldset id="fondo3" title="Aqui ene ste apartado del formulario que es rosa oscuro, marcaremos los Documentos que vamos a aportar para poder entrar en nuestro grado superrior">
+   			<legend>Documentos Adjuntados</legend>
    			<table>
-    			<tr>
-    				<td><label for="nombre">nombre:</label></td>
-    				<td><label for="apellido">apellido:</label></td>
-    				<td><label for="dn">dni:</label></td>
-    			</tr>
-    			<tr>
-    				<td>
-    					<input type="text" name="nombre" />
-    				</td>
-    				<td>
-    					<input type="text" name="apellido" />
-    				</td>
-    				<td>
-    					<input type="text" name="dni" />
-    				</td>
-    			</tr>
-    		</table>
+   				<tr>
+   					<td>
+   						<input type="checkbox" name="fotocopiadni" value="fotocopiadni">Fotocopia DNI<br>
+   					</td>
+   					<td>
+   						<input type="checkbox" name="certificado" value="certificado">Certificado Academico
+   					</td>
+   				</tr>
+   				<tr>
+   				<td colspan="2">
+					<input type="checkbox" name="otrosdocumentos" value="otrosdocumentos">Otros Documentos (especifique)&nbsp; <input type="text" name="certificado">
+				</td>
+   				</tr>
+   			</table>
   		</fieldset>
+  		<input type="submit" value="Enviar solicitud" title="Este es el boton de enviar, que mandas los datos al formulario">
+  		<br>
 	</form>
-
-	<ul>
-			<li>Los puntos selector para el elemento HTML que desea estilo.
-				<ul>
-					<li>El bloque de declaración contiene uno o más declaraciones separados por punto y coma.
-					</li>
-					<li>
-					Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
-					</li>
-					<li>
-					Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaraciones están rodeados por llaves.
-					</li>
-				</ul>
-			</li>
-	</ul>
-
-	<h4 class="ejemplo">Ejemplo de selectores</h4>
-	<div>
-		<p>En el siguiente ejemplo todas <p> elementos serán-centro alineados, con un color de texto de color rojo:</p>
-
-		<img src="./imagenes/imagen3.gif">
-
-		<a target="blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">"Intentalo tu mismo"</a>
-	</div>
-
-	<h3>Selectores css</h3>
-	<p>selectores CSS se utilizan para "encontrar" (o seleccionar) elementos HTML en función de su nombre del elemento, ID, clase, atributo, y mucho más.</p>
-
-	<hr>
-
-	<p class="naranja">El selector de elementos</p>
-
-	<p>12863862187361278361263921786378 &quot;<p>&quot;</p>
-
-	<h4 class="ejemplo">Ejemplo de selectores</h4>
-
-	<div>
-		<p>En el siguiente ejemplo todas <p> elementos serán-centro alineados, con un color de texto de color rojo:</p>
-
-		<img src="./imagenes/imagen3.gif">
-
-		<a target="blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">"Intentalo tu mismo"</a>
-	</div>	
 </body>
 </html>
