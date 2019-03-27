@@ -1,11 +1,11 @@
 
 h1{text-align: center;}
 
-legend{border:1px solid black;
+legend{/**border:1px solid black; **/
 		border-style: solid;
 		border-collapse: black;
 		border-width: thin;
-		border-radius: 25px
+		border-radius: 25px;
 		background-color: white;
 		}
 #fondo1
@@ -19,6 +19,10 @@ legend{border:1px solid black;
 		border-radius: 25px
 
 		}
+#fondo3{
+		background-color: rosybrown;
+		border-radius: 25px
+}
 ul{
 	list-style-type:none; /** Esto quita los puntos de las listas **/
 }
