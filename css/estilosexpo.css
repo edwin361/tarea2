@@ -6,6 +6,7 @@ body {background-color: grey}
 
 .imagen1{
 	background-color: blue;
+	padding: /** Aqui se coloca lo del border original. **/
 	border-top: 10px solid green;
 	border-right: 10px solid blue;
 	border-left: 10px solid blue;
