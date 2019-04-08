@@ -80,8 +80,7 @@ ul:first-of-type li:last-child{
 
 /*Con posición, el último ul tendrá un borde de 1px contínuo y negro*/
 ul:last-of-type{
-	color: black;
-	border: 1px;
+	border: solid black 1px;
 }
 /*Con posición, el segundo hijo del último ul será de color de letra gris*/
 ul:last-of-type li:nth-child(2){
@@ -114,3 +113,4 @@ p::after {
    content: "Fin de Párrafo";
    border: 5px solid lightblue;
 }
+
