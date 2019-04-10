@@ -1,0 +1,679 @@
+<!doctype html>
+<html xml:lang="es-ES" lang="es-ES">
+<head><script>!function(e,t){function n(){for(var e,n=t.getElementsByTagName("link"),r=0;r<n.length;r++)"preload"===(e=n[r]).rel&&"style"===e.getAttribute("as")&&(!function(e,n,r){function a(){l.addEventListener&&l.removeEventListener("load",a),l.media=r||"all"}var l=t.createElement("link");l.rel="stylesheet",l.href=e,l.media="only x";l.addEventListener&&l.addEventListener("load",a);(function e(){t.body?n.parentNode.insertBefore(l,n):setTimeout(e)})(),function e(){for(var n=t.styleSheets,r=n.length;r--;)if(n[r].href===l.href)return a();setTimeout(e)}()}(e.href,e,e.media),e.rel=null)}function r(){n(),clearInterval(a)}try{if(t.createElement("link").relList.supports("preload"))return}catch(e){}var a=setInterval(n,300);e.addEventListener&&e.addEventListener("load",r),e.attachEvent&&e.attachEvent("onload",r),n()}(window,document);</script>
+<style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#222;line-height:1.4;font-size:63%;visibility:visible;opacity:1}body{margin:0;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Helvetica,Arial,sans-serif;display:table;width:100%;min-width:320px;table-layout:fixed;position:relative;overflow-y:scroll;overflow-x:hidden;padding-top:5rem}header,img,main,nav{display:block}img{border:0;max-width:100%;height:auto}svg:not(:root){overflow:hidden}input{color:inherit;font:inherit;margin:0;line-height:normal;font-size:1.8rem}iframe,img,svg{vertical-align:middle}*{-webkit-box-sizing:border-box;box-sizing:border-box;font-size:1.6rem;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;color:#535a5f;text-rendering:optimizeLegibility;-sm-touch-action:manipulation}.icon--lupa{display:inline-block;background-image:url(https://img-cdn.hipertextual.com/i/sprite2017-3.svg);width:20px;height:20px;line-height:20px;background-size:178px 330px;background-position:-154px 0;opacity:.2}h1,h2,h3{font-weight:700}h1,h2,p{text-align:left}h1{margin:0 0 1.5rem;font-size:2.6rem;line-height:1.15em;color:#070707}h2,p{margin-top:0}h2,h3{font-size:2.3rem;margin-bottom:.666em;line-height:1.27em;color:#131313}h3{font-size:2rem;padding-bottom:.5em;line-height:1.2em;border-bottom:2px dotted #979797}p{line-height:1.6em;color:#535a5f;margin-bottom:1.2rem}p:last-child{margin-bottom:3rem}li,ul{margin-top:0}a,li{line-height:1.5em}li{list-style:none;margin-bottom:.7rem;color:#535a5f}a{background-color:transparent;font-size:100%;color:#08c;text-decoration:none}ul{padding-left:0;margin-bottom:2.5rem}.overlay::after{content:"";background:-webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0,0,0,.9)));background:linear-gradient(to bottom,transparent 0,rgba(0,0,0,.9) 100%);width:100%;height:100%;position:absolute;top:0;left:0}input[type=text]{width:100%;height:55px;color:#555;padding:1.5rem 1.8rem;border:1px solid #ddd;margin-bottom:2.5rem;letter-spacing:-.01em}input[type=submit]{-webkit-appearance:none;background-color:inherit;border:0}input:-webkit-autofill{background-color:none!important;background-image:none!important;color:#000}a.trigger{display:inline-block;left:0;position:absolute;top:0;bottom:0;right:0;z-index:8;opacity:0}header,main{position:relative}header{display:table-caption;caption-side:top;vertical-align:middle;width:100%;top:0;left:0;margin:0 auto;background-color:#1e1e1e}main{max-width:1030px;background-color:#fff;z-index:0;-ms-flex-wrap:wrap;flex-wrap:nowrap;margin-left:auto;margin-right:auto;overflow:hidden;margin-bottom:3.5rem}.wrapperMain{width:calc(100vw - (100vw - 100%));overflow:hidden;margin-bottom:0;padding-bottom:0}.wrapper,main{width:100%;height:auto}.row{display:block;width:100%;margin:0 auto;position:relative}.barHeader{position:fixed;width:100%;top:0;min-width:320px;height:50px;white-space:nowrap;background-color:#1e1e1e;text-align:center;z-index:100;max-width:100vw}.triggerMenu{position:absolute;width:auto;height:50px;top:0;right:0;padding:1.5rem 1rem}.iconMenu--hamburger,.iconMenu--hamburger span{position:relative;width:25px;height:20px;-webkit-transform:rotate(0);transform:rotate(0)}.iconMenu--hamburger span{display:block;position:absolute;height:2px;width:100%;background:#fff;opacity:1;left:0}.iconMenu--hamburger span:nth-child(1){top:0}.iconMenu--hamburger span:nth-child(2){top:50%;width:70%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);right:0;left:auto}.iconMenu--hamburger span:nth-child(3){bottom:0;right:0;left:auto;width:90%}.menuContents{display:block;table-layout:fixed;border-collapse:collapse;width:100%;min-width:320px;position:fixed;top:0;bottom:0;right:-102%;overflow:scroll;z-index:99;background-color:#1e1e1e;margin-top:5rem;text-align:center}.menuContents .wrapper{display:inline-block;padding-bottom:2.6rem;max-width:1046px}.mainNav{display:table-row;vertical-align:top;font-size:0}.mainNav__list{display:block;width:100%;margin:0}.mainNav__item{display:inline-table;width:100%;margin-bottom:0;height:20px}.menuContents__title>span,.wrapLogo svg,a.mainNav__item__link{display:table-cell;vertical-align:middle}a.mainNav__item__link{width:100%;color:#888;line-height:1.2;font-size:1.6rem;text-decoration:none;text-transform:uppercase;height:20px;padding:1.2rem 0}#menuCategorias,#menuPublis,#menuSection{display:inline-table;width:100%;table-layout:fixed;border-collapse:collapse;vertical-align:top}#menuCategorias{margin-bottom:2.5rem}#menuCategorias .desplegable{display:block;width:100%;font-size:0;padding-bottom:1.2rem}.menuContents__title{display:table-row;text-transform:uppercase;width:100%}.menuContents__title>span{font-size:1.8rem;width:100%;text-align:center;color:#fff;padding:1.2rem}.logo{display:block;position:absolute;width:auto;padding:0 1rem}.wrapLogo{display:inline-table;height:40px;width:191px}.wrapLogo svg{padding:1rem 0 0;height:40px}.wrapLogo path{fill:#fff}#social{display:table-row;height:auto}.navSocial,.suscripcionEmail--heroe{display:inline-table;table-layout:fixed;border-collapse:collapse;vertical-align:top}.navSocial{width:100%;white-space:nowrap;font-size:0;text-align:center;overflow:hidden}.navSocial__item{display:inline-block;width:36px;height:36px;vertical-align:top;margin-left:1.5rem;background-image:url(https://img-cdn.hipertextual.com/i/spriteSocial-v3.svg);background-size:212px 36px;background-repeat:no-repeat;background-color:#f0f0f0;border-radius:100%}.navSocial__item:first-child{margin-left:0}.icon--fb{background-position:10px 0}.icon--tw{background-position:-24px 0}.icon--instagram{background-position:-68px 0;background-color:inherit}.icon--youtube{background-position:-113px 0}.icon--flipboard{background-position:-147px 0}.suscripcionEmail--heroe{display:none;width:100%;height:auto;margin-bottom:0;opacity:1}.suscripcionEmail--heroe *{color:#fff;font-size:1.5rem}.suscripcionEmail--heroe .suscripcionEmail__form input[type=email]{height:50px;line-height:50px;padding:1.2rem;font-size:1.5rem;background-color:#333;color:#fff;border:1px solid #333}.suscripcionEmail--heroe .suscripcionEmail__form input[type=submit]{width:100%;background-color:#222;height:50px;border:0;border-radius:0}.suscripcionEmail--heroe .suscripcionEmail__form .carta{margin-top:0;position:absolute;height:50px;width:50px;top:0;right:-1px;padding:0;border-radius:0;overflow:hidden}.suscripcionEmail--heroe .suscripcionEmail__form .carta::after{content:'';width:25px;height:25px;display:block;position:absolute;background-image:url(https://img-cdn.hipertextual.com/i/sprite2017-3.svg);background-size:181px 335px;background-position:-156px -45px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.buscar{display:table-row;height:50px;z-index:1}.busqueda{display:block;width:100%;height:100%;position:relative}input[type=text].busqueda__input{display:block;width:100%;height:50px;border:0;padding:0 5rem 0 1.5rem;font-size:1.8rem;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;background-color:#333;-webkit-appearance:none;-webkit-box-shadow:0 0 8px #000;margin-bottom:2.5rem}input[type=text].busqueda__input::-webkit-input-placeholder{color:#666;opacity:.5}#searchsubmit,.busqueda__trigger{position:absolute;right:0;top:0;height:50px}.busqueda__trigger{display:block;text-align:center;padding:1.5rem;width:50px}#searchsubmit{width:56px}.suscripcionEmail{width:100%;height:auto;background-color:#f0f0f0;padding:0 1.5rem 3rem;margin-bottom:3rem;text-align:center}.destacado--stiky img,.suscripcionEmail__form{display:block;width:100%;height:auto;position:relative}.suscripcionEmail__form input[type=email]{width:100%;height:55px;border:1px solid #979797;padding:0 5rem 0 1.5rem;font-size:1.5rem;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#555;background-color:#fff}.suscripcionEmail__form .carta{margin-top:1.5rem}.banner{width:auto;margin:0 auto;display:inline-block}.banner.skin{display:none}.wrapperBanner{max-width:1000px;display:block;text-align:center;margin-bottom:3rem}.wrapperBanner.mega_atf.lg{margin:1.5rem auto}.etiqueta--analisis::before,.etiqueta--especiales::before{width:100%;display:block;font-size:1.5rem;font-weight:700;margin-bottom:.5rem;text-transform:uppercase}.etiqueta--analisis::before{content:"Análisis"}.etiqueta--especiales::before{content:"ESPECIALES"}.wrapperDestacados{height:auto;position:relative;margin-bottom:3rem;-ms-flex-wrap:nowrap;flex-wrap:nowrap}.destacado--stiky{position:relative;width:100%;height:295px;display:block;border-bottom:1px solid #fff;overflow:hidden}.destacado--stiky img{min-height:100%;min-width:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:50% 50%;object-position:50% 50%;width:auto;max-width:none;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.destacado--stiky__title{position:absolute;width:100%;height:auto;top:50%;left:0;font-size:2.8rem;line-height:1.25;padding:1.5rem;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);text-align:center;color:#fff;z-index:5}.destacado{position:relative;width:100%;height:150px;display:block;background-color:#cdd4da;border-bottom:1px solid #fff;overflow:hidden}.destacado:last-child{border-bottom:none}.destacado__title{position:absolute;bottom:0;text-align:left;width:auto;color:#fff;overflow:hidden;z-index:1;padding:1.5rem;margin-bottom:0}.destacado__img{width:100%;height:100%;position:absolute;-o-object-fit:cover;object-fit:cover;-o-object-position:50% 50%;object-position:50% 50%}.author__name{font-size:inherit;line-height:inherit;text-decoration:none;letter-spacing:.02em;display:inline-block}.post--b,.post--b__img{width:100%;position:relative}.post--b{display:table;padding:0 1.5rem 2.5rem;border-bottom:4px solid #f0f0f0;margin-bottom:2.5rem}.post--b__img{display:block;height:150px;vertical-align:top;overflow:hidden;margin-bottom:1.5rem}.post--b__img img{width:100%}.post--b__description{display:block;font-size:2.2rem;line-height:1.27;margin:1.5rem 0 0;padding:0;letter-spacing:-.02em;border-bottom:none}.linkPost--b{display:block;width:100%}.post--extended{display:inline-table;width:100%;position:relative;padding:0 1.5rem 2rem;margin-bottom:2rem;border-bottom:4px solid #f0f0f0;background-color:inherit}a.linkPost--b,a.linkPost--extended{display:table-row;text-decoration:none}.post--extended__img{display:table-cell;position:relative;vertical-align:top;width:100px;height:100px;overflow:hidden}.post--extended__img img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:50% 50%;object-position:50% 50%}.post--extended__description{display:table-cell;vertical-align:top;font-size:1.8rem;padding-left:1.5rem;padding-bottom:0;line-height:1.33333em;letter-spacing:-.014em;white-space:normal;border-bottom:none}.post--extended__author{margin-bottom:.7rem;display:inline-block;line-height:1em;font-size:1.2rem}.post--extended__author .author__name{text-transform:uppercase;display:inline-block;font-size:inherit;line-height:1em;color:#999}.post--extended__author a.author__name{color:#08c}.post--extended__excerpt{font-size:1.5rem}img[data-lazy-src]{background-color:#fff;opacity:.2;-webkit-filter:blur(10px)}.wrapperZoneA{height:auto;margin-bottom:0;-ms-flex-wrap:wrap;flex-wrap:wrap}.flexContent--colum--xs{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-line-pack:stretch;align-content:stretch}.order--xs--n1{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order--xs--n2{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order--xs--n15{-webkit-box-ordinal-group:16;-ms-flex-order:15;order:15}.order--xs--n18{-webkit-box-ordinal-group:19;-ms-flex-order:18;order:18}.order--xs--n19{-webkit-box-ordinal-group:20;-ms-flex-order:19;order:19}.home:not(.esvip) .post--b.order--xs--n15,.home:not(.esvip) .post--extended.order--xs--n2{padding-bottom:0;border-bottom:none;margin-bottom:3rem}.home main{max-width:1000px;padding:0;overflow:visible}.hidden--xs{display:none}.invisible--xs{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}@media only screen and (min-width:768px){*,.suscripcionEmail--heroe .suscripcionEmail__form input[type=email]{font-size:1.8rem}h1{line-height:1.25em;margin-top:-.06em;font-size:5rem;letter-spacing:-.03em;word-spacing:-.01em}h2,h3{font-size:3.5rem;line-height:1.2em;margin-top:-.1em;margin-bottom:2.5rem}h3{font-size:2.8rem;border-bottom:1px solid #535a5f}p{margin-bottom:2rem}input{font-size:1.6rem}input[type=text]{height:44px;line-height:44px;padding:1rem}header{height:50px;position:fixed;z-index:100}main{margin-bottom:5rem}.barHeader{width:100%;left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0);max-width:1030px}.menuContents{display:table;right:0;height:0;overflow:hidden;margin-top:-100%}.menuContents .wrapper{width:auto;padding:3rem 1rem}.mainNav__list{padding:0 .8rem}a.mainNav__item__link{text-align:left;text-transform:none;color:#999;padding-top:0;padding-bottom:2rem}#menuSection{width:20%;margin:0 4em 1rem 0}#menuCategorias{width:40%;margin:0 2em 1rem 0}#menuCategorias .desplegable{display:table;background-color:inherit;padding-bottom:0}#menuCategorias .desplegable .mainNav__list{height:246px}#menuCategorias .desplegable .mainNav__list .mainNav__item{width:49%}#menuPublis{width:20%;margin-bottom:1rem}.menuContents__title>span{font-size:1.8rem;text-align:left;font-weight:700;padding:0 .8rem 2rem}.menuContents__title>span:after{content:'';display:block;width:35px;height:2px;background-color:#08c;margin-top:.5rem}.logo{display:block;height:50px;white-space:nowrap;font-size:0}.wrapLogo{width:200px}#social{border-top:2px solid #333;font-size:0}.navSocial,.suscripcionEmail--heroe{margin-top:3rem}.navSocial{width:calc(100% - 314px - 16px);text-align:left}.navSocial__item{background-size:236px 40px;width:40px;height:40px}.icon--fb{background-position:11px 0}.icon--tw{background-position:-28px 0}.icon--instagram{background-position:-78px 0}.icon--youtube{background-position:-125px 0}.icon--flipboard{background-position:-164px 0}.suscripcionEmail--heroe{display:inline-table;width:314px}.busqueda{padding:0 .8rem}input[type=text].busqueda__input{height:65px;border:0;font-size:2rem;color:#fff;opacity:1;-webkit-box-shadow:none;box-shadow:none;border-radius:4px;padding:0 2rem;margin-bottom:3rem}input[type=text].busqueda__input::-webkit-input-placeholder{color:#a4a4a4}.busqueda__trigger{height:65px;padding:1.8rem 2rem 1.7rem;width:auto}.busqueda__trigger .icon--lupa{width:30px;height:30px;background-size:234px 434px;background-position:-202px 0}#searchsubmit{height:65px}.suscripcionEmail{margin-bottom:5rem}.etiqueta--analisis::before,.etiqueta--especiales::before{font-size:1.6rem;letter-spacing:.05em}.wrapperDestacados{max-height:700px;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.destacado--stiky{border-bottom:none}.destacado--stiky__title{font-size:5rem;padding-left:7.5rem;padding-right:7.5rem;top:auto;bottom:0;-webkit-transform:none;transform:none}.destacado,.destacado--head{border:0}.destacado--head:last-child{width:50%;-ms-flex-item-align:end;align-self:flex-end;height:400px;margin-top:-400px}.destacado--head .destacado__title{font-size:2.7rem;line-height:1.15}.post--b{display:block;padding-bottom:0;border-bottom:none;margin-bottom:3rem}.post--b__img{height:137px;overflow:hidden;margin-bottom:1rem}.post--b__img img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:50% 50%;object-position:50% 50%}.post--b__description{display:block;font-size:2.7rem;line-height:1.2;padding:0;margin-bottom:0}.post--extended{display:block;padding:0 1.5rem;border-bottom:none;margin-bottom:3rem}a.linkPost--b,a.linkPost--extended{display:block}.post--extended__img{display:block;width:100%;height:137px;margin-bottom:1rem}.post--b__img img,.post--extended__img img{margin-bottom:1rem}.post--extended__description{display:block;font-size:2.7rem;line-height:1.2;padding:0;margin-bottom:0}.wrapperZoneA{height:4000px;margin-bottom:3rem;padding:0 1.5rem}.width--sm--w1p2{width:50%}.width--sm--fullParent--OutAside{width:calc(100% - 330px)}.order--sm--n1{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order--sm--n2{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order--sm--n12{-webkit-box-ordinal-group:13;-ms-flex-order:12;order:12}.order--sm--n13{-webkit-box-ordinal-group:14;-ms-flex-order:13;order:13}.order--sm--n14{-webkit-box-ordinal-group:15;-ms-flex-order:14;order:14}.hidden--sm{display:none}.show--sm{display:block}.visible--sm{position:initial!important;clip:auto}}@media only screen and (max-width:767px){.slide--right{right:-102%}.mainNav__item{border-bottom:1px solid #333;text-align:left}a.mainNav__item__link{padding:1.2rem 0 1.2rem 1rem;text-align:left}#menuSection{display:none}}@media only screen and (min-width:924px){main{padding:1.5rem}.wrapperDestacados{max-height:none;height:auto;margin-left:0;margin-right:0}}@media only screen and (min-width:1024px){body{background-color:transparent}header{position:fixed}.triggerMenu{padding:1.5rem}.menuContents .wrapper{padding:3rem 1.5rem}#menuCategorias{margin:0 2em 1em 0}.logo{padding:0 1.5rem}.navSocial{width:calc(100% - 33.333% - 16px)}.suscripcionEmail--heroe{width:33.333%}.suscripcionEmail--heroe .suscripcionEmail__form{padding-left:.8rem}.suscripcionEmail{width:100%}.home .wrapperBanner.lg{display:block;margin-left:auto;margin-right:auto;margin-bottom:5rem}.home .wrapperBanner.lg.mega_atf{margin-top:3rem;margin-bottom:3rem}.destacado--stiky{height:424px}.destacado--stiky__title{padding-left:15rem;padding-right:15rem;letter-spacing:-.02em;line-height:1.16em}.destacado--head{height:360px}.destacado--head:last-child{width:initial;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;margin-top:0;height:360px}.destacado--head .destacado__title{font-size:3.2rem}.post--b,.post--extended{height:410px;overflow:hidden}.post--b:after,.post--extended:after{content:"";display:block;position:absolute;bottom:0;left:0;width:100%;height:30%;background-size:100%;background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(255,255,255,0)),to(#fff));background:linear-gradient(to bottom,rgba(255,255,255,0) 0,#fff 100%)}.wrapperZoneA{height:3085px;width:1030px;margin-left:-1.5rem;padding:0}.flexContent--row--md{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap}.width--md--w1p3{width:33.33333%}.order--md--n1{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order--md--n7{-webkit-box-ordinal-group:8;-ms-flex-order:7;order:7}.order--md--n8{-webkit-box-ordinal-group:9;-ms-flex-order:8;order:8}.order--md--n13{-webkit-box-ordinal-group:14;-ms-flex-order:13;order:13}.order--md--n14{-webkit-box-ordinal-group:15;-ms-flex-order:14;order:14}.visible--md{position:initial!important;clip:auto}}@media only screen and (max-width:768px){#menuPublis{margin-bottom:2em}}@media only screen and (max-width:468px){.logo{width:100px;height:24px}}@media only screen and (min-width:320px){.mega_atf{min-height:50px}}@media only screen and (min-width:728px){.mega_atf{min-height:90px}}@media only screen and (min-width:480px){.destacado--head{height:200px}}img.lazy{display:none}</style><style>html{visibility: hidden;opacity:0;}</style> <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111111">
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-78382-1', 'auto');
+ga('set', 'dimension1', 'Nicolás Rivera y Eduardo Arcos');
+ga('set', 'dimension2', 'Apple'); ga('send', 'pageview');
+</script>
+<script async src="//www.google-analytics.com/analytics.js"></script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P2D5DXS');</script>
+
+<link rel="manifest" href="/superpwa-manifest-16.json">
+<meta name="theme-color" content="#444444">
+<link rel="apple-touch-icon" sizes="192x192" href="/files/2018/08/ic_launcher_APP.png">
+<link rel="apple-touch-icon" sizes="512x512" href="/files/2018/08/hipertextual_pwa_splash_android.png">
+
+<title>iPhone XR, reseña a fondo: características, análisis, opinión y precio</title>
+<meta name="description" content="El iPhone XR es, probablemente, el smartphone más interesante que Apple ha lanzado en el último año. Esta es nuestra reseña a fondo." />
+<meta property="og:image" content="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01.jpg?strip=all&#038;lossy=1&#038;quality=60&#038;ssl=1" />
+<meta property="og:image:width" content="1500" />
+<meta property="og:image:height" content="1000" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="iPhone XR, reseña a fondo: características, análisis, opinión y precio" />
+<meta property="og:description" content="El iPhone XR es, probablemente, el smartphone más interesante que Apple ha lanzado en el último año. Esta es nuestra reseña a fondo." />
+<meta property="og:url" content="https://hipertextual.com/analisis/iphone-xr" />
+<meta property="og:site_name" content="Hipertextual" />
+<meta property="article:publisher" content="https://www.facebook.com/hipertextual" />
+<meta property="fb:app_id" content="100563910042312" />
+<meta property="article:published_time" content="2018-10-26T11:48+02:00" />
+<meta property="article:modified_time" content="2018-10-29T10:30+01:00" />
+<meta property="og:updated_time" content="2018-10-29T10:30+01:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@hipertextual" />
+<meta name="twitter:title" content="iPhone XR, reseña a fondo: características, análisis, opinión y precio" />
+<meta name="twitter:description" content="El iPhone XR es, probablemente, el smartphone más interesante que Apple ha lanzado en el último año. Esta es nuestra reseña a fondo." />
+<meta name="twitter:image" content="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01.jpg?strip=all&#038;lossy=1&#038;quality=60&#038;ssl=1" />
+<meta name="twitter:image:width" content="1500" />
+<meta name="twitter:image:height" content="1000" />
+<link rel="canonical" href="iphone-xr">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://hipertextual.com","name":"Hipertextual"}},{"@type":"ListItem","position":2,"item":{"@id":"https://hipertextual.com/apple","name":"Apple"}},{"@type":"ListItem","position":3,"item":{"@id":"https://hipertextual.com/analisis/iphone-xr","name":"iPhone XR, rese\u00f1a a fondo: caracter\u00edsticas, an\u00e1lisis, opini\u00f3n y precio","image":"https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01.jpg?strip=all&lossy=1&quality=60&ssl=1"}}]}</script>
+<link rel="dns-prefetch" href="/">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="//img-cdn.hipertextual.com">
+<link rel="preload" id="mainhptxt-css" href="//img-cdn.hipertextual.com/css/main-cf42057faf.min.css" type="text/css" media="all" as="style" onload="this.rel='stylesheet'"><noscript><link rel="stylesheet" id="mainhptxt-css" href="//img-cdn.hipertextual.com/css/main-cf42057faf.min.css?" type="text/css" media="all"></noscript>
+<link rel="https://api.w.org/" href="/wp-json/">
+
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/hipertextual.com\/analisis\/iphone-xr"},"url":"https:\/\/hipertextual.com\/analisis\/iphone-xr","headline":"iPhone XR, reseña a fondo: características, análisis, opinión y precio","datePublished":"2018-10-26T11:48:24+00:00","dateModified":"2018-10-29T10:30:02+00:00","publisher":{"@type":"Organization","@id":"https:\/\/hipertextual.com\/#organization","name":"Hipertextual","logo":{"@type":"ImageObject","url":"https:\/\/hipertextual.com\/files\/2017\/05\/hptx-schema.png","width":600,"height":60}},"image":{"@type":"ImageObject","url":"https:\/\/img-cdn.hipertextual.com\/files\/2018\/10\/iPhone-XR-01.jpg?strip=all&lossy=1&quality=60&ssl=1","width":1500,"height":1000},"articleSection":"Apple","description":"El iPhone XR es, probablemente, el smartphone más interesante que Apple ha lanzado en el último año. Esta es nuestra reseña a fondo.","author":{"@type":"Person","name":"Nicolás Rivera","url":"https:\/\/hipertextual.com\/autor\/nicorivera","description":"Redactor de tecnología en Hipertextual. Ingeniería de formación, periodismo de profesión.","image":{"@type":"ImageObject","url":"https:\/\/secure.gravatar.com\/avatar\/ed0c71ff2d23c7f701347002be03794b?s=96&d=wp_user_avatar&r=g","height":96,"width":96},"sameAs":["+NicolasRivera9","https:\/\/twitter.com\/nicorivera9"]},"review":{"@type":"Review","author":{"@type":"Person","name":"Nicolás Rivera"},"name":"iPhone XR","reviewRating":{"@type":"Rating","bestRating":"10","ratingValue":"9"}}}</script>
+<meta name="author" content="Nicolás Rivera y Eduardo Arcos" /><script async src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+<script type="text/javascript">
+var banners = [];
+var sizesmobile;
+var sizesdesktop;
+var sizestablet;
+var primerBanner = true;
+
+function addBannerHPTX(name, id, altopost, sizesmobile, sizesdesktop){
+	let maptoload = googletag.sizeMapping().
+		addSize([0, 0], sizesmobile).
+		addSize([1050, 200], sizesdesktop). // Desktop
+		addSize([728, 200], sizestablet). // Tablet
+		build();
+	let sizesall = sizesmobile.concat(sizesdesktop);
+	googletag.defineSlot('/1036009/'+id, sizesall, id).defineSizeMapping(maptoload).addService(googletag.pubads());
+
+	banners[name] = {name: id, altopost: altopost, map : maptoload, sizes : sizesall};
+
+}
+
+googletag.cmd.push(function() {
+
+
+sizesmobile = [[320,100], [320,50], [300,50], [300,100]];
+sizesdesktop = [[728,90],[900,90],[900,250],[950,90],[960,90],[970,90],[970,250],[980,250],[1000,90],[1000,250]];
+
+addBannerHPTX('mega_atf', 'HPTX_apple_mega_atf', 0, sizesmobile, sizesdesktop);
+
+
+var mapMegaFooter = googletag.sizeMapping().
+	addSize([0, 0], [[320,100], [320,50], [300,50], [300,100]]).
+	addSize([1050, 200], [[728,90],[900,90],[900,250],[950,90],[960,90],[970,90],[970,250],[1000,90]]). // Desktop
+	build();
+
+googletag.defineSlot('/1036009/HPTX_apple_mega_footer', '[[320,100], [320,50], [300,50], [300,100], [728,90],[900,90],[900,250],[950,90],[960,90],[970,90],[970,250],[1000,90]]', 'HPTX_apple_mega_footer').
+  defineSizeMapping(mapMegaFooter).
+  addService(googletag.pubads());
+
+
+sizesmobile = [[300,250],[300,50]];
+sizesdesktop = [[300,250],[300,600]];
+
+addBannerHPTX('roba_ATF', 'HPTX_apple_roba_ATF', 0, sizesmobile, sizesdesktop);
+
+sizesmobile = [[300,250],[300,600]];
+sizesdesktop = [[300,250],[300,600]];
+
+addBannerHPTX('roba_midpage', 'HPTX_apple_roba_midpage', 2000, sizesmobile, sizesdesktop);
+
+var mapScript = googletag.sizeMapping().
+	addSize([992, 0], [[1, 1]]). //desktop
+	addSize([768, 0], [[1, 1]]). //tablet
+	addSize([320, 0], [[1, 1]]). //mobile
+	addSize([0, 0], [[1, 1]]). //other
+	build();
+
+googletag.defineSlot('/1036009/HPTX_Seedtag', '[[1,1]]', 'HPTX_Seedtag').
+defineSizeMapping(mapScript).
+addService(googletag.pubads());
+
+
+googletag.defineSlot('/1036009/HPTX_OutstreamSLD', '[[1,1]]', 'HPTX_OutstreamSLD').
+defineSizeMapping(mapScript).
+addService(googletag.pubads());
+
+var mapSkin = googletag.sizeMapping().
+	addSize([0, 0], []).
+	addSize([1050, 200], [1,1]). // Desktop
+	build();
+
+googletag.defineSlot('/1036009/HPTX_apple_skin', '[[1,1]]', 'HPTX_apple_skin').
+	defineSizeMapping(mapSkin).
+	addService(googletag.pubads());
+
+sizesmobile = [[300,250]];
+sizesdesktop = [[300,250]];
+
+addBannerHPTX('single_roba_endpost', 'HPTX_apple_single_roba_endpost', 0, sizesmobile, sizesdesktop);
+
+sizesmobile = [[300,250],[336,280]];
+sizesdesktop = [[300,250],[336,280]];
+sizestablet = [[728,90]];
+
+addBannerHPTX('roba_entreparrafos_1', 'HPTX_roba_entreparrafos_1', 0, sizesmobile, sizesdesktop);
+
+sizesmobile = [[300,250],[336,280]];
+sizesdesktop = [[300,250],[336,280]];
+sizestablet = [[728,90]];
+
+addBannerHPTX('roba_entreparrafos_2', 'HPTX_roba_entreparrafos_2', 0, sizesmobile, sizesdesktop);
+
+sizesmobile = [[300,250],[336,280],[300,600]];
+sizesdesktop = [[300,250],[336,280],[300,600]];
+sizestablet = [[728,90]];
+
+
+addBannerHPTX('roba_entreparrafos_3', 'HPTX_roba_entreparrafos_3', 0, sizesmobile, sizesdesktop);
+
+sizesmobile = [[300,250],[336,280],[300,600]];
+sizesdesktop = [[300,250],[336,280],[300,600]];
+sizestablet = [[728,90]];
+
+addBannerHPTX('roba_entreparrafos_4', 'HPTX_roba_entreparrafos_4', 0, sizesmobile, sizesdesktop);
+
+sizesmobile = [[300,250],[336,280],[300,600]];
+sizesdesktop = [[300,250],[336,280],[300,600]];
+sizestablet = [[728,90]];
+
+addBannerHPTX('roba_entreparrafos_5', 'HPTX_roba_entreparrafos_5', 0, sizesmobile, sizesdesktop);
+
+sizesmobile = [[300,250],[336,280],[300,600]];
+sizesdesktop = [[300,250],[336,280],[300,600]];
+sizestablet = [[728,90]];
+
+addBannerHPTX('roba_entreparrafos_6', 'HPTX_roba_entreparrafos_6', 0, sizesmobile, sizesdesktop);
+
+sizesmobile = [[300,250],[336,280],[300,600]];
+sizesdesktop = [[300,250],[336,280],[300,600]];
+sizestablet = [[728,90]];
+
+addBannerHPTX('roba_entreparrafos_7', 'HPTX_roba_entreparrafos_7', 0, sizesmobile, sizesdesktop);
+
+sizesmobile = [[300,250],[336,280],[300,600]];
+sizesdesktop = [[300,250],[336,280],[300,600]];
+sizestablet = [[728,90]];
+
+addBannerHPTX('roba_entreparrafos_8', 'HPTX_roba_entreparrafos_8', 0, sizesmobile, sizesdesktop);
+
+sizesmobile = [[300,250],[336,280]];
+sizesdesktop = [[300,250],[336,280]];
+sizestablet = [[728,90]];
+
+addBannerHPTX('googlers', 'HPTX_googlers', 0, sizesmobile, sizesdesktop, sizestablet);
+
+googletag.pubads().collapseEmptyDivs(true);
+googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+	var str = event.slot.getSlotElementId();
+	var rATF = parseInt(str.indexOf("roba_ATF"));
+	var mega = parseInt(str.indexOf("mega_atf"));
+	var mmidpage = parseInt(str.indexOf("mega_midpage"));
+
+	if(mega>1){
+		moverMegaATF(str.substr(9));
+		if(primerBanner){
+			fetchBannersbyPostID(false);
+		}
+
+	}
+	if(rATF>1){
+		ajusteAmplio(str.substr(9));
+	}
+	if(mmidpage>1){
+		ajusteAltoWrapperA();
+	}
+});
+googletag.pubads().setTargeting('fsafe', 'true');
+googletag.pubads().setTargeting('categoria', 'Apple');
+googletag.pubads().enableLazyLoad({
+  fetchMarginPercent: 200,
+  renderMarginPercent: 100,
+  mobileScaling: 1.5
+});
+googletag.enableServices();
+
+});
+</script>
+<link rel="icon" href="//img-cdn.hipertextual.com/files/2016/07/cropped-fav.png?strip=all&#038;lossy=1&#038;quality=60&#038;resize=32%2C32&#038;ssl=1" sizes="32x32">
+<link rel="icon" href="//img-cdn.hipertextual.com/files/2016/07/cropped-fav.png?strip=all&#038;lossy=1&#038;quality=60&#038;resize=192%2C192&#038;ssl=1" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="//img-cdn.hipertextual.com/files/2016/07/cropped-fav.png?strip=all&#038;lossy=1&#038;quality=60&#038;resize=180%2C180&#038;ssl=1">
+<meta name="msapplication-TileImage" content="https://img-cdn.hipertextual.com/files/2016/07/cropped-fav.png?strip=all&#038;lossy=1&#038;quality=60&#038;resize=270%2C270&#038;ssl=1" />
+</head>
+<body class="analisis-template-default single single-analisis postid-1106529">
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P2D5DXS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<header>
+
+<div class="barHeader">
+<div class="logo">
+<a href="/" title="Hipertextual" class="wrapLogo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 47.6">
+<path d="M300 0v35.4h-7V0H300zM257.3 35.4v-3.8l-0.1 0.3c-0.9 1.5-2 2.6-3.5 3.2 -1.4 0.7-2.9 1-4.4 1 -1.9 0-3.4-0.2-4.6-0.7 -1.2-0.5-2.2-1.2-2.8-2.1 -0.7-0.9-1.2-2-1.5-3.3 -0.3-1.3-0.4-2.8-0.4-4.3V9.8h7v14.5c0 2.1 0.3 3.7 1 4.7 0.7 1 1.8 1.6 3.5 1.6 1.9 0 3.3-0.6 4.2-1.7 0.9-1.1 1.3-3 1.3-5.6V9.8h7v25.6H257.3zM237.5 14.5V9.8h-5.2V3.2h-7v6.6H216l-4.5 6.7L207 9.8h-8l8.4 12.1 -9.2 13.5h7.9l5.4-8.1 5.4 8.1h8l-9.5-13.6 5.1-7.3h4.8v15.1c0 1.3 0.2 2.3 0.6 3.1 0.4 0.8 1 1.4 1.8 1.8 0.7 0.4 1.6 0.7 2.6 0.9 1 0.2 2 0.2 3.1 0.2 0.7 0 1.4 0 2.1 0 0.7 0 1.4-0.1 2-0.2v-5.5c-0.3 0.1-0.7 0.1-1 0.1 -0.4 0-0.7 0.1-1.1 0.1 -1.2 0-2-0.2-2.4-0.6 -0.4-0.4-0.6-1.2-0.6-2.4V14.5H237.5zM200.1 18.6c-0.5-1.8-1.2-3.4-2.3-4.9 -1-1.4-2.4-2.6-4-3.4 -1.6-0.8-3.5-1.3-5.7-1.3 -1.9 0-3.7 0.3-5.3 1 -1.6 0.7-3 1.6-4.1 2.8 -1.2 1.2-2 2.6-2.7 4.3 -0.6 1.7-0.9 3.4-0.9 5.4 0 2 0.3 3.8 0.9 5.5 0.6 1.7 1.5 3.1 2.6 4.3 1.1 1.2 2.5 2.1 4.1 2.8 1.6 0.6 3.4 1 5.5 1 2.9 0 5.4-0.7 7.4-2 2-1.3 3.6-3.5 4.6-6.6H194c-0.2 0.8-0.9 1.5-1.9 2.3 -1 0.7-2.2 1.1-3.7 1.1 -2 0-3.5-0.5-4.6-1.5 -1.1-1-1.6-2.7-1.7-5h18.5C200.8 22.3 200.6 20.4 200.1 18.6zM182.1 19.8c0-0.5 0.1-1.1 0.3-1.7 0.2-0.6 0.5-1.2 0.9-1.8 0.4-0.6 1-1 1.8-1.4 0.7-0.4 1.7-0.6 2.8-0.6 1.7 0 3 0.5 3.8 1.4 0.8 0.9 1.4 2.3 1.8 4.1H182.1zM143.9 18.6c-0.5-1.8-1.2-3.4-2.3-4.9 -1-1.4-2.4-2.6-4-3.4 -1.6-0.8-3.5-1.3-5.7-1.3 -1.9 0-3.7 0.3-5.3 1 -1.6 0.7-3 1.6-4.1 2.8 -1.2 1.2-2 2.6-2.7 4.3 -0.6 1.7-0.9 3.4-0.9 5.4 0 2 0.3 3.8 0.9 5.5 0.6 1.7 1.5 3.1 2.6 4.3 1.1 1.2 2.5 2.1 4.1 2.8 1.6 0.6 3.4 1 5.4 1 2.9 0 5.4-0.7 7.4-2 2-1.3 3.6-3.5 4.6-6.6h-6.2c-0.2 0.8-0.9 1.5-1.9 2.3 -1 0.7-2.2 1.1-3.7 1.1 -2 0-3.5-0.5-4.6-1.5 -1.1-1-1.6-2.7-1.7-5h18.5C144.5 22.3 144.4 20.4 143.9 18.6zM125.9 19.8c0-0.5 0.1-1.1 0.3-1.7 0.2-0.6 0.5-1.2 0.9-1.8 0.4-0.6 1-1 1.8-1.4 0.7-0.4 1.7-0.6 2.8-0.6 1.7 0 3 0.5 3.8 1.4 0.8 0.9 1.4 2.3 1.8 4.1H125.9zM116.7 17.6c-0.5-1.7-1.2-3.1-2.1-4.4 -1-1.3-2.2-2.3-3.6-3 -1.5-0.8-3.2-1.1-5.2-1.1 -1.6 0-3 0.3-4.4 0.9 -1.3 0.6-2.4 1.6-3.3 3l-0.1 0.1 0-3.4h-6.7v37.8h7l0-15.5 0.1 0.1c0.9 1.3 2 2.2 3.3 2.8 1.3 0.6 2.8 1 4.4 1 1.9 0 3.5-0.4 4.9-1.1 1.4-0.7 2.6-1.7 3.5-2.9 0.9-1.2 1.6-2.6 2.1-4.2 0.5-1.6 0.7-3.2 0.7-5C117.4 21 117.2 19.3 116.7 17.6zM110.3 25.7c-0.2 1-0.5 1.9-1 2.6 -0.5 0.7-1.1 1.3-1.9 1.8 -0.8 0.5-1.7 0.7-2.9 0.7 -1.1 0-2.1-0.2-2.9-0.7 -0.8-0.5-1.4-1.1-1.9-1.8 -0.5-0.7-0.8-1.6-1-2.6 -0.2-1-0.3-2-0.3-3 0-1.1 0.1-2.1 0.3-3.1 0.2-1 0.5-1.9 1-2.6 0.5-0.8 1.1-1.4 1.9-1.9 0.8-0.5 1.7-0.7 2.9-0.7 1.1 0 2.1 0.2 2.9 0.7 0.8 0.5 1.4 1.1 1.9 1.9 0.5 0.8 0.8 1.7 1.1 2.7 0.2 1 0.3 2 0.3 3C110.6 23.7 110.5 24.7 110.3 25.7zM88.9 9.8v25.6h-7V9.8H88.9zM62.4 0l0 13.6 0.1-0.2c0.9-1.5 2-2.6 3.4-3.2 1.4-0.7 2.7-1 4.1-1 1.9 0 3.4 0.3 4.6 0.8 1.2 0.5 2.2 1.2 2.8 2.1 0.7 0.9 1.2 2 1.5 3.3 0.3 1.3 0.4 2.7 0.4 4.3v15.8h-7V20.9c0-2.1-0.3-3.7-1-4.7 -0.7-1-1.8-1.6-3.5-1.6 -1.9 0-3.3 0.6-4.2 1.7 -0.9 1.1-1.3 3-1.3 5.6v13.4h-7V0H62.4zM290 16.4c0-1.6-0.3-2.8-1-3.7 -0.7-0.9-1.6-1.7-2.7-2.2 -1.1-0.5-2.3-0.9-3.6-1.1 -1.3-0.2-2.6-0.3-3.9-0.3 -1.4 0-2.8 0.1-4.2 0.4 -1.4 0.3-2.7 0.8-3.8 1.4 -1.1 0.7-2 1.5-2.8 2.6 -0.7 1.1-1.1 2.5-1.2 4.1h7c0.1-1.4 0.6-2.4 1.4-3 0.8-0.6 1.9-0.9 3.3-0.9 0.6 0 1.2 0 1.8 0.1 0.5 0.1 1 0.2 1.4 0.5 0.4 0.2 0.7 0.6 1 1 0.2 0.4 0.4 1 0.4 1.8 0 0.7-0.2 1.3-0.6 1.7 -0.5 0.4-1.1 0.7-1.9 0.9 -0.8 0.2-1.7 0.3-2.7 0.4 -1 0.1-2.1 0.2-3.1 0.4 -1.1 0.2-2.1 0.4-3.1 0.7 -1 0.3-2 0.7-2.8 1.3 -0.8 0.6-1.5 1.3-2 2.3 -0.5 0.9-0.8 2.1-0.8 3.6 0 1.3 0.2 2.5 0.7 3.4 0.4 1 1.1 1.8 1.9 2.4 0.8 0.6 1.7 1.1 2.8 1.4 1.1 0.3 2.2 0.4 3.4 0.4 1.6 0 3.1-0.2 4.7-0.7 1.5-0.5 2.8-1.3 4-2.4v2.5h6.7V16.4zM283 25.5c0 0.4 0 0.9-0.1 1.6 -0.1 0.7-0.3 1.3-0.7 2 -0.4 0.6-0.9 1.2-1.7 1.7 -0.8 0.5-1.8 0.7-3.2 0.7 -0.6 0-1.1 0-1.6-0.1 -0.5-0.1-1-0.3-1.4-0.5 -0.4-0.2-0.7-0.6-0.9-1 -0.2-0.4-0.3-1-0.3-1.6 0-0.7 0.1-1.2 0.3-1.6 0.2-0.4 0.5-0.8 0.9-1.1 0.4-0.3 0.8-0.5 1.3-0.7 0.5-0.2 1-0.3 1.6-0.4 0.6-0.1 1.1-0.2 1.7-0.2 0.6-0.1 1.1-0.1 1.6-0.2 0.5-0.1 1-0.2 1.4-0.4 0.4-0.1 0.8-0.4 1.1-0.6V25.5zM88.9 0h-7v6.4h7V0zM174.6 14.5V9.8h-5.2V3.2h-7v6.6l-1.4 0c-0.7 0-1.4 0.1-2.1 0.3 -0.2 0-0.4 0.1-0.6 0.1 -0.7 0.2-1.3 0.5-1.9 0.9 -0.1 0.1-0.2 0.1-0.3 0.2 0 0-0.1 0-0.1 0.1 0 0-0.1 0.1-0.1 0.1 -0.1 0.1-0.3 0.2-0.4 0.3 0 0-0.1 0-0.1 0.1 -1.2 0.9-2.2 2.2-2.8 3.6l-0.1-5.6h-6.7v25.6h7l0-11.9c0-5 4-9 9-9 0.2 0 0.3 0 0.4 0v15.1c0 1.3 0.2 2.3 0.6 3.1 0.4 0.8 1 1.4 1.8 1.8 0.7 0.4 1.6 0.7 2.6 0.9 1 0.2 2 0.2 3.1 0.2 0.7 0 1.4 0 2.1 0 0.7 0 1.4-0.1 2-0.2v-5.5c-0.3 0.1-0.7 0.1-1 0.1 -0.4 0-0.7 0.1-1.1 0.1 -1.2 0-2-0.2-2.4-0.6 -0.4-0.4-0.6-1.2-0.6-2.4V14.5H174.6zM49 17.7C49 7.9 41.1 0 31.3 0H17.7C7.9 0 0 7.9 0 17.7c0 9.8 7.9 17.7 17.7 17.7h6.8 12.3L49 47.6c0 0 0-21.6 0-29.8C49 17.8 49 17.7 49 17.7zM42.6 29v3.2L39.4 29h0l0 0H17.7c-6.2 0-11.3-5.1-11.3-11.3 0-6.2 5.1-11.3 11.3-11.3h13.6c6.2 0 11.3 5.1 11.3 11.3v0l0 0v4.6V29z">
+</path>
+</svg>
+</a>
+</div>
+
+<div class="triggerMenu">
+<div class="iconMenu--hamburger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+
+<div class="menuContents slide--right">
+<div class="wrapper">
+
+<div class="buscar" id="buscar" role="search">
+<form action="//hipertextual.com/busqueda" class="busqueda" id="cse-search-box">
+<div>
+<input type="hidden" name="cx" value="partner-pub-2712554386520713:8260220484">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="UTF-8">
+<input type="text" name="q" size="31" class="busqueda__input" placeholder="Introduce tu búsqueda" onclick="trackInGA('clic en buscador', 'caja texto', this.href);">
+<input type="submit" name="sa" id="searchsubmit" value="" onclick="trackInGA('clic en buscador', 'submit', this.href);">
+<div class="busqueda__trigger">
+<i class="icon--lupa lazybg"></i>
+</div>
+</div>
+</form>
+</div>
+
+<nav class="mainNav">
+
+<div id="menuCategorias">
+<div class="menuContents__title  hidden--xs show--sm">
+<span>Secciones</span>
+</div>
+<div class="desplegable">
+<ul class="mainNav__list">
+<li class="mainNav__item"><a href='https://hipertextual.com/tecnologia' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category'>Tecnología</a></li>
+<li class="mainNav__item"><a href='https://hipertextual.com/ciencia' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category'>Ciencia</a></li>
+<li class="mainNav__item"><a href='https://hipertextual.com/cine-television' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category'>Cine y TV</a></li>
+<li class="mainNav__item"><a href='https://hipertextual.com/mobile' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category'>Mobile</a></li>
+<li class="mainNav__item"><a href='https://hipertextual.com/economia-empresas' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category'>Economía y Empresas</a></li>
+<li class="mainNav__item"><a href='https://hipertextual.com/apple' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category current-analisis-ancestor current-menu-parent current-analisis-parent'>Apple</a></li>
+<li class="mainNav__item"><a href='https://hipertextual.com/internet' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category'>Internet</a></li>
+<li class="mainNav__item"><a href='https://hipertextual.com/software' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category'>Software</a></li>
+<li class="mainNav__item"><a href='https://hipertextual.com/startups' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category'>Startups</a></li>
+<li class="mainNav__item"><a href='https://hipertextual.com/videojuegos' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category'>Videojuegos</a></li>
+</ul>
+</div>
+</div>
+
+<div id="menuSection">
+<div class="menuContents__title  hidden--xs show--sm">
+<span>Especiales</span>
+</div>
+<ul class="mainNav__list">
+<li class="mainNav__item"><a href='/entrevistas' class='mainNav__item__link menu-item menu-item-type-custom menu-item-object-custom'>Entrevistas</a></li>
+<li class="mainNav__item"><a href='/especiales' class='mainNav__item__link menu-item menu-item-type-custom menu-item-object-custom'>Reportajes</a></li>
+<li class="mainNav__item"><a href='https://www.youtube.com/hipertextual' class='mainNav__item__link menu-item menu-item-type-custom menu-item-object-custom'>Hipertextual TV</a></li>
+<li class="mainNav__item"><a href='https://hipertextual.com/futuro' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category'>Futuro por Samsung</a></li>
+<li class="mainNav__item"><a href='https://hipertextual.com/innovacion-motor' class='mainNav__item__link menu-item menu-item-type-taxonomy menu-item-object-category'>Innovación por Ford</a></li>
+<li class="mainNav__item"><a href='/hemeroteca' class='mainNav__item__link menu-item menu-item-type-custom menu-item-object-custom'>Archivo</a></li>
+</ul>
+</div>
+
+<div id="menuPublis">
+<div class="menuContents__title  hidden--xs show--sm">
+<span>Publicaciones</span>
+</div>
+<ul class="mainNav__list">
+<li class="mainNav__item"><a href='https://hipertextual.com' class='mainNav__item__link menu-item menu-item-type-custom menu-item-object-custom menu-item-home'>Hipertextual</a></li>
+<li class="mainNav__item"><a href='https://dinamopodcast.com' class='mainNav__item__link menu-item menu-item-type-custom menu-item-object-custom'>Dínamo Podcast</a></li>
+<li class="mainNav__item"><a href='https://somosxbox.com' class='mainNav__item__link menu-item menu-item-type-custom menu-item-object-custom'>SomosXbox</a></li>
+<li class="mainNav__item"><a href='https://www.tekcrispy.com' class='mainNav__item__link menu-item menu-item-type-custom menu-item-object-custom'>TekCrispy</a></li>
+</ul>
+</div>
+</nav> 
+
+<div id="social">
+<div class="navSocial">
+<a href="https://www.facebook.com/hipertextual" rel="nofollow" target="_blank" class="navSocial__item icon--fb" title="Visita nuestro facebook"></a>
+<a href="https://twitter.com/hipertextual" rel="nofollow" target="_blank" class="navSocial__item icon--tw"></a>
+<a href="https://www.instagram.com/hipertextual" rel="nofollow" target="_blank" class="navSocial__item icon--instagram"></a>
+<a href="https://www.youtube.com/hipertextual" rel="nofollow" class="navSocial__item icon--youtube" target="_blank"></a>
+<a href="https://flipboard.com/@hipertextual/hipertextual-f0eu25v2z" rel="nofollow" target="_blank" class="navSocial__item icon--flipboard lazybg"></a>
+</div>
+<div class="suscripcionEmail--heroe">
+<form action="//hipertextual.us6.list-manage.com/subscribe/post?u=f365c9a50c7cc2942ec7c436d&amp;id=e9ffbde302" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="suscripcionEmail__form" target="_blank" novalidate="">
+<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Suscríbete al newsletter" size="50" class="text">
+<div class="carta" class"lazybg">
+<input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="">
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="wrapperMain">
+
+<div class="wrapperBanner lg visible--md mega_atf">
+<div id="HPTX_apple_mega_atf" class="banner mega_atf">
+<script type="text/javascript">
+				 googletag.cmd.push(function() { googletag.display('HPTX_apple_mega_atf'); });
+			</script>
+</div>
+</div>
+<div id="HPTX_OutstreamSLD" class="banner OutstreamSLD">
+<script type="text/javascript">
+				 googletag.cmd.push(function() { googletag.display('HPTX_OutstreamSLD'); });
+			</script>
+</div>
+<main role="main" class="template--singleAmpliado flexContent--colum--xs flexContent--alingCenter--xs post-1106529">
+
+<figure class="articleHead width--sm--fullWindow width--md--fullParent">
+<img width="1000" height="667" src="" class="attachment-ImagenGrande size-ImagenGrande wp-post-image" alt="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01.jpg?strip=all&amp;lossy=1&amp;quality=60&amp;fit=1000%2C667&amp;ssl=1" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01.jpg?strip=all&amp;lossy=1&amp;quality=60&amp;ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01-335x223.jpg?strip=all&amp;lossy=1&amp;quality=60&amp;ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01-768x512.jpg?strip=all&amp;lossy=1&amp;quality=60&amp;ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01-670x447.jpg?strip=all&amp;lossy=1&amp;quality=60&amp;ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01-960x640.jpg?strip=all&amp;lossy=1&amp;quality=60&amp;ssl=1 960w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01-700x467.jpg?strip=all&amp;lossy=1&amp;quality=60&amp;ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01-1000x667.jpg?strip=all&amp;lossy=1&amp;quality=60&amp;ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-01.jpg?strip=all&amp;lossy=1&amp;quality=60&amp;w=1152&amp;ssl=1 1152w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px"> </figure>
+
+<div class="headlineSingle wrapper wrapper--padding wrapper--Mx860">
+<a href="https://hipertextual.com/analisis" class="etiqueta--categoria analisis">análisis</a>
+<h1 class="headlineSingle__title">iPhone XR</h1>
+<p class="headlineSingle__author">
+<a href="https://hipertextual.com/autor/nicorivera" title="Entradas por Nicolás Rivera" class="author__name" rel="author">Nicolás Rivera</a> y <a href="https://hipertextual.com/autor/earcos" title="Entradas por Eduardo Arcos" class="author__name" rel="author">Eduardo Arcos</a>
+- Oct 26, 2018 - 11:48 (CET) </p>
+</div>
+
+<div class="wrapper--contenido1 wrapper wrapper--Mx860 wrapper--padding wrapper--md--paddingNone">
+
+<div class="wrapperBanner width--md--sideBar floatRight--md clearRight P30L--md">
+<div id="HPTX_apple_roba_ATF" class="banner adv7">
+<script type="text/javascript">
+				 googletag.cmd.push(function() { googletag.display('HPTX_apple_roba_ATF'); });
+			</script>
+</div>
+</div>
+
+<div class="width--md--sideBar floatRight--md clearRight P30L--md hidden--xs show--sm botonera">
+<div class="compartir floatLeft--sm">
+<a class="tw" href="#" onclick="abreCompartir(event, 'tw', 1106529);"><span class="largo">Compartir en twitter</span><span class="corto">Twittear</span></a>
+<a class="fb" href="#" onclick="abreCompartir(event, 'fb', 1106529);"><span class="largo">Compartir en Facebook</span><span class="corto">Compartir</span></a>
+</div>
+</div>
+
+<div class="wrapper width--md--sideBar floatRight--md clearRight P30L--md M50T--sm">
+<div class="ficha">
+<div class="ficha__bar js-accordion">
+<p>Ficha técnica</p>
+</div>
+<div class="ficha__accordion">
+<p><figure id="image-1" class="size-1097557"><img src="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-335x195.png?strip=all&lossy=1&quality=60&ssl=1" alt="" width="335" height="195" class="aligncenter size-medium wp-image-1097557" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-335x195.png?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-768x447.png?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-670x390.png?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-430x250.png?strip=all&lossy=1&quality=60&ssl=1 430w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-700x407.png?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-1000x582.png?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera.png?strip=all&lossy=1&quality=60&ssl=1 1203w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera.png?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" data-lazy-sizes="(max-width: 335px) 100vw, 335px" data-large="https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera.png?strip=all&lossy=1&quality=60&fit=670%2C390&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera.png?strip=all&lossy=1&quality=60&fit=335%2C195&ssl=1"><noscript><img src="//img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-335x195.png?strip=all&lossy=1&quality=60&ssl=1" alt="" width="335" height="195" class="aligncenter size-medium wp-image-1097557" srcset="https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-335x195.png?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-768x447.png?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-670x390.png?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-430x250.png?strip=all&lossy=1&quality=60&ssl=1 430w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-700x407.png?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera-1000x582.png?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera.png?strip=all&lossy=1&quality=60&ssl=1 1203w, https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera.png?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" sizes="(max-width: 335px) 100vw, 335px" data-large="https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera.png?strip=all&lossy=1&quality=60&fit=670%2C390&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/09/iPhone-XR-Camara-trasera.png?strip=all&lossy=1&quality=60&fit=335%2C195&ssl=1"></noscript></figure></p>
+<ul>
+<li>
+<strong>Procesador:</strong> Apple A12</li>
+<li>
+<strong>Almacenamiento:</strong> 64/128/256 GB</li>
+<li>
+<strong>Pantalla:</strong> 6,1" Liquid Retina</li>
+<li>
+<strong>Cámara principal:</strong> 12 megapíxeles, f/1,8 y flash LED cuádruple.</li>
+<li>
+<strong>Conectividad:</strong> Bluetooth 5, NFC, Wi-Fi, 4G LTE, GPS y GLONASS. </li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="headlineSingle__lead width--md--w500">
+<p>El iPhone XR es, probablemente, el smartphone más interesante que Apple ha lanzado en el último año. Reúne las mejores características de los modelos más vanguardistas y las empaqueta en un formato más colorido y económico. Todo ello, además, sin renunciar a la esencia que siempre caracteriza a los productos de Apple. En <em>Hipertextual</em> lo hemos probado durante varios días, y este es nuestro análisis a fondo.</p> </div>
+
+<div class="wrapper width--md--w500 ajuste historia primera">
+<p>Acércate a una persona que no sea experta tecnológica y pregúntale si compraría un iPhone X —o iPhone XS— si se lo vendes con un descuento de 250 dólares o 300 euros.</p>
+<p>La respuesta de la mayoría de personas será un rotundo sí.</p>
+<p>Este es exactamente <strong>el tipo de consumidores a los que Apple quiere atraer con el nuevo iPhone XR</strong>: personas a las que no podría importarle menos el tipo de pantalla, si los bordes son 2 milímetros más gruesos o si la cámara tiene dos objetivos ópticos. Sin embargo, todos ellos sí que quieren, definitivamente, el último diseño de smartphones de Apple (el mismo que toda la industria ha copiado) y disfrutar de la mejor tecnología que ofrece la compañía.</p>
+<p>El iPhone XR cumple, con creces, la premisa anterior. Por esos <strong>250 dólares o 300 euros menos que el iPhone XS</strong>, los clientes se llevan un dispositivo con el mejor procesador móvil del mercado —el A12 Bionic—, una de las mejores cámaras jamás montadas en un smartphone y todas las ventajas que incluyen los dispositivos de Apple. Tan solo hay que hacer cuatro compromisos de relativa importancia:</p>
+<ol>
+<li>No es una pantalla OLED.</li>
+<li>La cámara tiene un solo objetivo.</li>
+<li>La construcción es de aluminio, no de acero inoxidable.</li>
+<li>No tiene 3D Touch.</li>
+</ol>
+<p>Todo lo demás es similar a un iPhone XS -recordemos que comparten parte de los componentes- por lo que esta reseña se enfoca en los cuatro puntos diferenciales del nuevo modelo: pantalla, cámara, tamaño y autonomía.</p>
+<div class="iframely-embed">
+<div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><iframe data-iframely-url="https://cdn.iframe.ly/tLVtOlu?maxheight=750&app=1" allowfullscreen></iframe></div>
+</div>
+</div>
+</div>
+
+<div class="article__figure--full">
+<div class="iframely-embed" style="max-width: 1333px;">
+<div class="iframely-responsive"><iframe data-img data-iframely-url="https://cdn.iframe.ly/rjXW5Uy?playerjs=1&amp;maxheight=750" allowfullscreen scrolling="no" allow="autoplay; encrypted-media"></iframe></div>
+</div> </div>
+
+<div class="wrapper wrapper--Mx700 wrapper--padding wrapper--md--paddingNone historia">
+<p><em><a href="https://itunes.apple.com/es/podcast/d%C3%ADnamo/id1410176630?mt=2" target="_blank">No dejes de escuchar <strong>Dínamo</strong></a>, el podcast de Hipertextual dedicado a todo lo relacionado con Apple, donde también analizamos el iPhone XR, contestamos muchas de las preguntas de la audiencia y aclaramos dudas sobre el nuevo smartphone de la compañía. Disponible en <strong><a href="https://itunes.apple.com/es/podcast/d%C3%ADnamo/id1410176630?mt=2&ign-mpt=uo%3D4" target="_blank">Apple Podcasts</a> y <a href="https://open.spotify.com/show/2jPr7UrHKaiQSTYoFD4FCE?si=4YmlxpKOSj6Hq1pM-eMB7g" target="_blank">Spotify</a></strong></em>.</p>
+<hr>
+<h2>Pantalla</h2>
+<p>La pantalla del iPhone XR, a diferencia de sus hermanos mayores, no hace uso de la tecnología OLED. En su lugar, <strong>Apple ha montado un panel LCD</strong>, que además es de menor resolución que el del iPhone XS -458 píxeles por pulgada versus 326 píxeles por pulgada-.</p>
+<div class="wrapperBanner roba_midpage"></div>
+<p>¿Tienen alguna clase de impacto todos esos datos en el uso del producto? Honestamente, no. <strong>No al menos para el público al que va dirigido este producto.</strong> Y la explicación es bastante sencilla: esta pantalla, independientemente de lo que digan las cifras, sigue siendo realmente buena.</p>
+<p><figure id="image-1" class="size-1106533"><img src="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="667" class="aligncenter size-ImagenGrande wp-image-1106533" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-335x223.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-768x512.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-670x447.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-960x640.jpg?strip=all&lossy=1&quality=60&ssl=1 960w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-700x467.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03.jpg?strip=all&lossy=1&quality=60&fit=670%2C447&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03.jpg?strip=all&lossy=1&quality=60&fit=335%2C223&ssl=1"><noscript><img src="//img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="667" class="aligncenter size-ImagenGrande wp-image-1106533" srcset="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-335x223.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-768x512.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-670x447.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-960x640.jpg?strip=all&lossy=1&quality=60&ssl=1 960w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03-700x467.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03.jpg?strip=all&lossy=1&quality=60&fit=670%2C447&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-03.jpg?strip=all&lossy=1&quality=60&fit=335%2C223&ssl=1"></noscript></figure></p>
+<p>Apple tiene <strong>una gran experiencia en el uso y la calibración de pantallas LCD</strong>, y lo hemos visto durante muchísimos años. Es la tecnología presente en los MacBook, los iPad y los iPhone –hasta la llegada del iPhone X-; y todos ellos ofrecen una calidad de imagen realmente sorprendente. No debe sorprender, por lo tanto, que el panel LCD del iPhone XR luzca tan bien desde el momento en el que sale de la caja.</p>
+<p>La precisión de los colores, que según Apple es la mejor de la industria, también resulta incuestionable. Y la forma en la que el panel llega a los bordes -algo que ningún fabricante ha logrado equiparar con un LCD- aumenta significativamente el área disponible para el contenido. <strong>El avance respecto a generaciones anteriores de iPhone es más que evidente</strong>.</p>
+<p><aside class="aligncenter">La tecnología LCD no es necesariamente inferior al OLED. Y el iPhone XR, al igual que otros iPhone, lo demuestra.</aside></p>
+<p>Tan solo hay un aspecto en el que un posible comprador puede llegar a notar la diferencia entre el OLED del iPhone XS y el LCD del iPhone XR: <strong>el realismo del color negro</strong>.</p>
+<p>La tecnología OLED permite apagar cada uno de los píxeles individualmente, mientras que un panel LCD, por definición, <strong>mantiene la totalidad de la superficie iluminada</strong>. Este funcionamiento se traduce en unos negros ligeramente más profundos en el caso del iPhone XS, con pantalla OLED.</p>
+<p>Todo lo demás, de nuevo, es <strong>justo lo esperado en un iPhone de 2018</strong>: la temperatura de color se ajusta en base al entorno gracias a <em>True Tone</em>, los contenidos se muestran a la perfección incluso bajo entornos luminosos y la resolución es más que suficiente para que los píxeles sean indistinguibles a la vista humana.</p>
+<p></p>
+<div class="imgcaption">
+<figure id="image-1" class="size-1105831"><img src="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/10/XR2-1000x577.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="577" class="size-ImagenGrande wp-image-1105831" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/10/XR2-1000x577.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XR2-335x193.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XR2-768x443.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XR2-670x386.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XR2-700x404.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/XR2.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/XR2.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XR2.jpg?strip=all&lossy=1&quality=60&fit=670%2C386&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XR2.jpg?strip=all&lossy=1&quality=60&fit=335%2C193&ssl=1"><noscript><img src="//img-cdn.hipertextual.com/files/2018/10/XR2-1000x577.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="577" class="size-ImagenGrande wp-image-1105831" srcset="https://img-cdn.hipertextual.com/files/2018/10/XR2-1000x577.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XR2-335x193.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XR2-768x443.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XR2-670x386.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XR2-700x404.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/XR2.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/XR2.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XR2.jpg?strip=all&lossy=1&quality=60&fit=670%2C386&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XR2.jpg?strip=all&lossy=1&quality=60&fit=335%2C193&ssl=1"></noscript></figure><figcaption class="wp-caption-text">XR a la izquierda, XS a la derecha.</figcaption>
+</div>
+<p>Al utilizar paneles LCD, Apple ha tenido que incrementar sensiblemente <strong>el tamaño de los marcos que flanquean la pantalla</strong>. La explicación es simple: las pantallas con esta tecnología, a diferencia del OLED, no puede “doblarse” y moldearse con la misma facilidad. Si sitúas el iPhone XR cerca de un XS o un XS Max, por lo tanto, se puede apreciar una ligerísima diferencia en el grosor de este elemento.</p>
+<p>Sin embargo, la mayoría de personas que probablemente compren este iPhone XR <strong>no procederán de un iPhone X o un iPhone XS</strong>. Lo harán de modelos anteriores de iPhone o, por el contrario, de equipos con Android. Y, comparado con todos ellos, los marcos del iPhone XR siguen siendo sumamente delgados. Teléfonos tan populares como el Galaxy S9, el Pixel 3 o el P20 Pro presentan barbillas y marcos más gruesos que los de este iPhone XR. Así que no hay, en absoluto, nada de lo que preocuparse.</p>
+<h2>Cámara</h2>
+<p><figure id="image-1" class="size-1106532"><img src="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="667" class="aligncenter size-ImagenGrande wp-image-1106532" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-335x223.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-768x512.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-670x447.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-960x640.jpg?strip=all&lossy=1&quality=60&ssl=1 960w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-700x467.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02.jpg?strip=all&lossy=1&quality=60&fit=670%2C447&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02.jpg?strip=all&lossy=1&quality=60&fit=335%2C223&ssl=1"><noscript><img src="//img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="667" class="aligncenter size-ImagenGrande wp-image-1106532" srcset="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-335x223.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-768x512.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-670x447.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-960x640.jpg?strip=all&lossy=1&quality=60&ssl=1 960w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02-700x467.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02.jpg?strip=all&lossy=1&quality=60&fit=670%2C447&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-02.jpg?strip=all&lossy=1&quality=60&fit=335%2C223&ssl=1"></noscript></figure></p>
+<p>La cámara del iPhone XR es <strong>la misma que el encontramos en el iPhone XS</strong> -mismo sensor y mismos megapíxeles-, pero con una diferencia: un único objetivo, el gran angular, con apertura de ƒ/1,8. Prescinde del teleobjetivo que permite hacer zoom óptico de dos aumentos. Todo lo demás, sin embargo, está presente:</p>
+<ul>
+<li>Estabilización óptica de imagen.</li>
+<li>Lente de seis elementos.</li>
+<li>Enfoque automático con <em>focus pixels</em>.</li>
+<li>Filtro de infrarrojos.</li>
+<li>Mapeo de tonos localizado.</li>
+<li>HDR inteligente automático.</li>
+<li>Y sí, modo retrato.</li>
+</ul>
+<p>Vale la pena recordar, además, que el iPhone XR, incluso con un precio menor, <strong>tiene el procesador A12 Bionic</strong>, el cual es responsable de esa "fotografía computacional" que hace la cámara del iPhone XS –y, en este caso, la del XR– tan buena.</p>
+<p>Todas las ventajas, incluyendo el procesador con motor neural, la selección de la intensidad del efecto <em>bokeh</em> en el modo retrato después de tomar la foto, los mil millones de cálculos para sacar la mejor foto posible la grabación de vídeo en 4K con rango dinámico ampliado y mayor separación de canales, están en el XR. Cero compromisos.</p>
+<p><figure id="image-1" class="size-1105803"><img src="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3-1000x650.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="650" class="aligncenter size-ImagenGrande wp-image-1105803" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3-335x218.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3-768x499.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3-670x436.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3-700x455.jpg?strip=all&lossy=1&quality=60&ssl=1 700w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3.jpg?strip=all&lossy=1&quality=60&fit=670%2C436&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3.jpg?strip=all&lossy=1&quality=60&fit=335%2C218&ssl=1"><noscript><img src="//img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3-1000x650.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="650" class="aligncenter size-ImagenGrande wp-image-1105803" srcset="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3-335x218.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3-768x499.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3-670x436.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3-700x455.jpg?strip=all&lossy=1&quality=60&ssl=1 700w" sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3.jpg?strip=all&lossy=1&quality=60&fit=670%2C436&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-3.jpg?strip=all&lossy=1&quality=60&fit=335%2C218&ssl=1"></noscript></figure></p>
+<p>Sin embargo, al tener un solo objetivo (el gran angular) <strong>el modo retrato del XR funciona de forma diferente</strong>. En el iPhone XS usa los dos, uno para tomar la foto y otro para medir profundidad de objetos, haciéndolo bastante exacto. En el XR, mientras tanto, un solo sensor es usado tanto para tomar la fotografía como para hacer la medición de distancias, diferenciar objetos de una misma escena y, posteriormente, desenfocar el fondo mientras el sujeto principal mantiene la nitidez.</p>
+<p>En la práctica el modo retrato del XS funciona <strong>ligeramente mejor que el del XR</strong>. Hay mejor separación de sujeto y fondo, especialmente en detalles pequeños como el pelo.</p>
+<p><aside class="aligncenter">El iPhone XR hace uso de un único objetivo para realizar el modo retrato. Respecto al XS, este camino tiene sus "pros" y sus "contras".</aside></p>
+<p>También es importante recordar que <strong>los retratos se suelen tomar con focales de 50 milímetros</strong> –o cerca de los 50 milímetros– porque la imagen resultante se aproxima a la forma en la que el ojo humano percibe la realidad. Al usar un sólo lente —el gran angular— para el modo retrato, el resultado es curioso, porque exagera los elementos que hay en el centro y distorsiona un poco aquellos situados en las esquinas. No es un fallo del iPhone, en realidad. Es, simplemente, como un objetivo de 27 milímetros se comporta normalmente.</p>
+<p><figure id="image-1" class="size-1105802"><img src="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2-1000x650.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="650" class="aligncenter size-ImagenGrande wp-image-1105802" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2-335x218.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2-768x499.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2-670x436.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2-700x455.jpg?strip=all&lossy=1&quality=60&ssl=1 700w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2.jpg?strip=all&lossy=1&quality=60&fit=670%2C436&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2.jpg?strip=all&lossy=1&quality=60&fit=335%2C218&ssl=1"><noscript><img src="//img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2-1000x650.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="650" class="aligncenter size-ImagenGrande wp-image-1105802" srcset="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2-335x218.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2-768x499.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2-670x436.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2-700x455.jpg?strip=all&lossy=1&quality=60&ssl=1 700w" sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2.jpg?strip=all&lossy=1&quality=60&fit=670%2C436&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-2.jpg?strip=all&lossy=1&quality=60&fit=335%2C218&ssl=1"></noscript></figure></p>
+<p>Dicho eso, <strong>las fotografías resultantes son bastante curiosas</strong>, y el reconocimiento de elementos para su separación funciona mucho mejor de lo que se espera en una cámara con un solo lente. El <em>mapeo</em> de objetos y la medición de distancias nunca será tan exacta como en una cámara dual, pero Apple ha hecho un muy buen trabajo con algoritmos de reconocimiento y segmentaciones para la imagen final. Todo esto, además, en tiempo real.</p>
+<p>Por comparar: el <a href="https://hipertextual.com/analisis/google-pixel-3-xl">Pixel 3</a>, lanzado pocos días antes que el iPhone XR, es incapaz de mostrar el efecto <em>bokeh</em> del modo retrato –y también funciona con un único objetivo–. La razón es, nuevamente, el poder impresionante del A12 Bionic.</p>
+<p><figure id="image-1" class="size-1106539"><img src="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="667" class="aligncenter size-ImagenGrande wp-image-1106539" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-335x223.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-768x512.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-670x447.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-960x640.jpg?strip=all&lossy=1&quality=60&ssl=1 960w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-700x467.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2.jpg?strip=all&lossy=1&quality=60&fit=670%2C447&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2.jpg?strip=all&lossy=1&quality=60&fit=335%2C223&ssl=1"><noscript><img src="//img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="667" class="aligncenter size-ImagenGrande wp-image-1106539" srcset="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-335x223.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-768x512.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-670x447.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-960x640.jpg?strip=all&lossy=1&quality=60&ssl=1 960w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2-700x467.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2.jpg?strip=all&lossy=1&quality=60&fit=670%2C447&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-2.jpg?strip=all&lossy=1&quality=60&fit=335%2C223&ssl=1"></noscript></figure></p>
+<p>Y la elección de la palabra <em>impresionante</em> no es al azar o una exageración. La cantidad inmensa de cálculos que se tienen que en tiempo real nos resulta imposible de imaginar –recordemos: mil millones de cálculos por segundo–. Y <strong>todas ellas permiten que mejore nuestro proceso de hacer la fotografía</strong>, viendo en tiempo real algo que, en este caso, es un efecto 100% desarrollado por el <em>software</em>.</p>
+<p>Un cínico diría que es una exageración, que no es para tanto y que por muchos cálculos por segundo que Apple asegura que hacen, no debería sorprendernos. Pero recordemos que <strong>ningún otro fabricante en la actualidad puede lograr algo así</strong>, en tiempo real y con resultados tan efectivos. El motivo es porque simplemente nadie tiene la capacidad de procesar tantos datos en un objeto tan pequeño como un smartphone. Sólo Apple.</p>
+<p>Es importante aclarar que el tener que realizar el mapeo, la separación de elementos y la medición de distancias con un solo objetivo tiene una desventaja: el modo retrato en el iPhone XR <strong>sólo funciona con personas y no en otros objetos</strong>.</p>
+<p><figure id="image-1" class="size-1105805"><img src="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1-1000x650.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="650" class="aligncenter size-ImagenGrande wp-image-1105805" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1-335x218.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1-768x499.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1-670x436.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1-700x455.jpg?strip=all&lossy=1&quality=60&ssl=1 700w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1.jpg?strip=all&lossy=1&quality=60&fit=670%2C436&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1.jpg?strip=all&lossy=1&quality=60&fit=335%2C218&ssl=1"><noscript><img src="//img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1-1000x650.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="650" class="aligncenter size-ImagenGrande wp-image-1105805" srcset="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1-335x218.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1-768x499.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1-670x436.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1-700x455.jpg?strip=all&lossy=1&quality=60&ssl=1 700w" sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1.jpg?strip=all&lossy=1&quality=60&fit=670%2C436&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-1.jpg?strip=all&lossy=1&quality=60&fit=335%2C218&ssl=1"></noscript></figure></p>
+<p></p>
+<div class="imgcaption">
+<figure id="image-1" class="size-1105807"><img src="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2-1000x650.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="650" class="size-ImagenGrande wp-image-1105807" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2-335x218.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2-768x499.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2-670x436.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2-700x455.jpg?strip=all&lossy=1&quality=60&ssl=1 700w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2.jpg?strip=all&lossy=1&quality=60&fit=670%2C436&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2.jpg?strip=all&lossy=1&quality=60&fit=335%2C218&ssl=1"><noscript><img src="//img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2-1000x650.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="650" class="size-ImagenGrande wp-image-1105807" srcset="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2-335x218.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2-768x499.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2-670x436.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2-700x455.jpg?strip=all&lossy=1&quality=60&ssl=1 700w" sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2.jpg?strip=all&lossy=1&quality=60&fit=670%2C436&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XS-vs-XR-Comparativa-1-2.jpg?strip=all&lossy=1&quality=60&fit=335%2C218&ssl=1"></noscript></figure><figcaption class="wp-caption-text">El iPhone XR captura más detalle que el XS.</figcaption>
+</div>
+<p>La limitación de tener que hacer el modo retrato con el lente gran angular de apertura ƒ/1,8 presenta <strong>una ventaja sobre el iPhone XS</strong>: al entrar más luz por el objetivo, el teléfono es capaz de iluminar mejor la escena y, por consiguiente, generar mejores retratos en condiciones de luz adversas. La diferencia, en algunos casos, es realmente amplia.</p>
+<p>¿Es suficiente la cámara del iPhone XR? Eso es una pregunta que <strong>se responde solo en base a los hábitos fotográficos de cada uno</strong>. ¿Crees que necesitarás hacer zoom óptico con frecuencia o prefieres modo retratos más naturales, sobre todo cuando el escenario es complejo? En ese caso, es mejor una cámara con dos lentes como la del XS. Si la respuesta, por el contrario, es negativa, el XR cumplirá con creces.</p>
+<div class="iframely-embed">
+<div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><iframe data-iframely-url="https://cdn.iframe.ly/XB5OnXu?maxheight=750&app=1" allowfullscreen></iframe></div>
+</div>
+<h2>Autonomía</h2>
+<p><figure id="image-1" class="size-1105801"><img src="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="667" class="aligncenter size-ImagenGrande wp-image-1105801" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-335x223.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-768x512.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-670x447.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-960x640.jpg?strip=all&lossy=1&quality=60&ssl=1 960w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-700x467.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR.jpg?strip=all&lossy=1&quality=60&fit=670%2C447&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR.jpg?strip=all&lossy=1&quality=60&fit=335%2C223&ssl=1"><noscript><img src="//img-cdn.hipertextual.com/files/2018/10/iPhone-XR-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="667" class="aligncenter size-ImagenGrande wp-image-1105801" srcset="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-335x223.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-768x512.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-670x447.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-960x640.jpg?strip=all&lossy=1&quality=60&ssl=1 960w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR-700x467.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR.jpg?strip=all&lossy=1&quality=60&fit=670%2C447&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/iPhone-XR.jpg?strip=all&lossy=1&quality=60&fit=335%2C223&ssl=1"></noscript></figure></p>
+<p>La autonomía del iPhone XR, tal y como las cifras oficiales de Apple advertían pocas horas después de su presentación, es, junto con el XS Max, <strong>la mejor de cualquier iPhone</strong> -y una de las mejores del sector-.</p>
+<p>La explicación técnica es bastante simple: <strong>la batería ha aumentado en capacidad</strong>, el A12 Bionic ofrece una mayor eficiencia energética y la pantalla, dada su menor resolución, traslada una cantidad de trabajo menor a la unidad de procesamiento gráfico.</p>
+<p>El nuevo modelo, además, <strong>soporta carga inalámbrica -mediante el estándar Qi- y carga rápida</strong>, aunque en ambos casos es necesario adquirir un cargador compatible por separado.</p>
+<p><iframe id="datawrapper-chart-GQgVK" src="//datawrapper.dwcdn.net/GQgVK/3/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="325"></iframe></p>
+<p><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["GQgVK"]={},window.datawrapper["GQgVK"].embedDeltas={"100":566,"200":409,"300":367,"400":367,"500":342,"700":325,"800":325,"900":325,"1000":325},window.datawrapper["GQgVK"].iframe=document.getElementById("datawrapper-chart-GQgVK"),window.datawrapper["GQgVK"].iframe.style.height=window.datawrapper["GQgVK"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["GQgVK"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("GQgVK"==b)window.datawrapper["GQgVK"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script></p>
+<h2>Tamaño</h2>
+<p></p>
+<div class="imgcaption">
+<figure id="image-1" class="size-1105832"><img src="" data-lazy-src="https://img-cdn.hipertextual.com/files/2018/10/XR1-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="667" class="size-ImagenGrande wp-image-1105832" data-lazy-srcset="https://img-cdn.hipertextual.com/files/2018/10/XR1-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XR1-335x223.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XR1-768x512.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XR1-670x447.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XR1-960x640.jpg?strip=all&lossy=1&quality=60&ssl=1 960w, https://img-cdn.hipertextual.com/files/2018/10/XR1-700x467.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/XR1.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/XR1.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XR1.jpg?strip=all&lossy=1&quality=60&fit=670%2C447&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XR1.jpg?strip=all&lossy=1&quality=60&fit=335%2C223&ssl=1"><noscript><img src="//img-cdn.hipertextual.com/files/2018/10/XR1-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1" alt="" width="1000" height="667" class="size-ImagenGrande wp-image-1105832" srcset="https://img-cdn.hipertextual.com/files/2018/10/XR1-1000x667.jpg?strip=all&lossy=1&quality=60&ssl=1 1000w, https://img-cdn.hipertextual.com/files/2018/10/XR1-335x223.jpg?strip=all&lossy=1&quality=60&ssl=1 335w, https://img-cdn.hipertextual.com/files/2018/10/XR1-768x512.jpg?strip=all&lossy=1&quality=60&ssl=1 768w, https://img-cdn.hipertextual.com/files/2018/10/XR1-670x447.jpg?strip=all&lossy=1&quality=60&ssl=1 670w, https://img-cdn.hipertextual.com/files/2018/10/XR1-960x640.jpg?strip=all&lossy=1&quality=60&ssl=1 960w, https://img-cdn.hipertextual.com/files/2018/10/XR1-700x467.jpg?strip=all&lossy=1&quality=60&ssl=1 700w, https://img-cdn.hipertextual.com/files/2018/10/XR1.jpg?strip=all&lossy=1&quality=60&ssl=1 1500w, https://img-cdn.hipertextual.com/files/2018/10/XR1.jpg?strip=all&lossy=1&quality=60&w=1152&ssl=1 1152w" sizes="(max-width: 1000px) 100vw, 1000px" data-large="https://img-cdn.hipertextual.com/files/2018/10/XR1.jpg?strip=all&lossy=1&quality=60&fit=670%2C447&ssl=1" data-medium="https://img-cdn.hipertextual.com/files/2018/10/XR1.jpg?strip=all&lossy=1&quality=60&fit=335%2C223&ssl=1"></noscript></figure><figcaption class="wp-caption-text">XR a la izquierda, XS a la derecha.</figcaption>
+</div>
+<p>La elección del tamaño del iPhone XR no es casualidad: intenta ofrecer más valor por menos dinero con un tamaño intermedio que elimina la necesidad de elegir entre dos modelos.</p>
+<p>Es un tamaño curioso, pero a medida que pasa el tiempo va quedando claro que ni 5,8 ni 6,5 es el "punto dulce", sino estas 6,1 pulgadas. Gracias a ellas, <strong>el teléfono es lo suficientemente grande como para disfrutar ampliamente de los contenidos</strong>, pero no implica un uso a dos manos casi constante –como sí ocurre, en muchos casos, con los modelos Max/Plus–.</p>
+</div>
+
+<div class="wrapperConclusiones wrapper--Mx700 wrapper--md--paddingNone">
+<div class="wrapper articleConclusion">
+<h2 class="article__subtitle article__subtitle--main">Conclusión</h2>
+<div class="superpuntuacion">
+<div class="puntuacion puntuacion-9">9</div> <div itemscope itemprop="reviewRating" itemtype="http://schema.org/Rating">
+<meta itemprop="worstRating" content="1">
+<meta itemprop="bestRating" content="10">
+<meta itemprop="ratingValue" content="9"></meta>
+</div>
+<div class="sobre10">10</div>
+</div>
+<p>El iPhone XR es un gran ejercicio de democratización y masificación de tecnologías vanguardistas. Todo lo que maravillaba en el iPhone X y en su sucesor, el XS, está presente en este nuevo modelo. Y además, los clientes pueden adquirirlo en cualquier distribuidor a un precio mucho más atractivo y en un amplio abanico de colores.</p>
+<p>Si quieres un iPhone, y, básicamente, no te importa prescindir de detalles como el teleobjetivo o la profundidad de los negros del OLED, el XR es tu dispositivo.</p>
+<p>No hay ninguna duda: el iPhone XR es el iPhone para las masas.</p>
+</div>
+<hr class="conclusiones">
+
+<div class="wrapper articleConclusion--pros">
+<h2 class="article__subtitle article__subtitle--pros wow fadeInLeft">Pros</h2>
+<ul>
+<li>Autonomía excelente</li>
+<li>El mejor procesador de la industria</li>
+<li>Una gran experiencia fotográfica</li>
+<li>Face ID</li>
+</ul> </div>
+
+<div class="wrapper articleConclusion--contras">
+<h2 class="article__subtitle article__subtitle--contras">Contras</h2>
+<ul>
+<li>Sin zoom óptico</li>
+<li>Sin 3D Touch</li>
+</ul> </div>
+</div>
+<div class="wrapper wrapper--Mx700">
+<div class="compartir end over abajo">
+<a class="tw" href="#" onclick="abreCompartir(event, 'tw', 1106529);"><span class="largo">Compartir en twitter</span><span class="corto">Twittear</span></a>
+<a class="fb" href="#" onclick="abreCompartir(event, 'fb', 1106529);"><span class="largo">Compartir en Facebook</span><span class="corto">Compartir</span></a>
+</div>
+</div>
+<div class="wrapper wrapper--Mx700" id="comentarios">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+        var disqus_shortname = "hipertextual-1";
+        var disqus_title = "iPhone XR";
+        var disqus_url = "https://hipertextual.com/analisis/iphone-xr";
+        var disqus_identifier = "hipertextual-1-1106529";
+    </script> </div>
+</main>
+<div class="elcontenido"></div>
+<footer>
+<div class="logo logo__footer">
+<a href="/" title="Ir a la portada de Hipertextual" class="wrapLogo__footer">
+<picture>
+<img src="/i/hipertextual-icon-mobile-landscape.svg">
+</picture>
+</a>
+</div>
+<nav class="aboutNav">
+<ul class="aboutNav__list">
+<li class="aboutNav__item"><a href="/contacto" class="aboutNav__item__link" title="Ponte en contacto con Hipertextual" rel="nofollow">Contacto</a></li>
+<li class="aboutNav__item"><a href="/trabaja-con-nosotros" rel="nofollow" class="aboutNav__item__link" title="Información sobre Hipertextual">Trabaja con nosotros</a></li>
+<li class="aboutNav__item"><a href="//nosotros.hipertextual.com" class="aboutNav__item__link" title="Información sobre Hipertextual">Acerca de</a></li>
+<li class="aboutNav__item"><a href="/privacidad" class="aboutNav__item__link" title="Información Legal" rel="nofollow">Privacidad</a></li>
+<li class="aboutNav__item"><a href="/politica-cookies" class="aboutNav__item__link" title="Información Legal" rel="nofollow">Cookies</a></li>
+</ul>
+<div class="copy__footer">&copy; 2019 Hipertextual SL. Todos los derechos reservados.</div> 
+</nav>
+</footer>
+<div id="HPTX_apple_skin" class="banner skin">
+<script type="text/javascript">
+				 googletag.cmd.push(function() { googletag.display('HPTX_apple_skin'); });
+			</script>
+</div>
+<script type="text/javascript">
+function deferLoadingScript(url, callback) {
+  var loadScript = function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.src = url;
+    if (typeof callback === 'function') {
+      s.onload = s.onreadystatechange = function(event) {
+        event = event || window.event;
+        if (event.type === 'load' || (/loaded|complete/.test(s.readyState))) {
+          s.onload = s.onreadystatechange = null;
+          callback();
+        }
+      };
+    }
+    document.body.appendChild(s);
+  };
+
+  if (window.addEventListener) {
+    window.addEventListener('load', loadScript, false);
+  } else {
+    window.attachEvent('onload', loadScript);
+  }
+}
+
+deferLoadingScript('//a.teads.tv/page/3036/tag', function() {
+});
+deferLoadingScript('/js/e/skm.js', function() {
+});
+deferLoadingScript('//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js', function() {
+});
+
+if (document.documentElement.clientWidth < 480) {
+  deferLoadingScript('//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', function() {
+  })};
+
+
+</script>
+<script type="text/javascript">
+if (document.documentElement.clientWidth < 480) {
+  document.write('<script> (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-2712554386520713", enable_page_level_ads: true }); <\/script>');
+}
+</script>
+<script type="text/javascript">var superpwa_sw = {"url":"\/superpwa-sw-16.js"};</script>
+<script type="text/javascript" async="async" src="//img-cdn.hipertextual.com/wp-content/plugins/super-progressive-web-apps/public/js/register-sw.js?m=1552416748"></script>
+<script type="text/javascript" defer="defer" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" defer="defer" src="//img-cdn.hipertextual.com/js/main.js?ver=1.4.6"></script>
+<script type="text/javascript">var ajax_nonce = "6ab304647b";</script>
+<script type="text/javascript" async="async" src="//img-cdn.hipertextual.com/js/amplio.js?ver=1.2.16"></script>
+<script type="text/javascript" async="async" src="https://hipertextual-1.disqus.com/embed.js?ver=4.9.10"></script>
+<script type="text/javascript" src="//tc.dataxpand.com/tc/9336140.js" async></script><script>(function(w, d){
+	var b = d.getElementsByTagName("body")[0];
+	var s = d.createElement("script"); s.async = true;
+	s.src = !("IntersectionObserver" in w) ? "/js/lazyload/lazyload-8.11.min.js" : "/js/lazyload/lazyload-10.11.1.min.js";
+	w.lazyLoadOptions = {
+		elements_selector: "img",
+		data_src: "lazy-src",
+		data_srcset: "lazy-srcset",
+		data_sizes: "lazy-sizes",
+		skip_invisible: false,
+		class_loading: "lazyloading",
+		class_loaded: "lazyloaded",
+		threshold: 50,
+		callback_load: function(element) {
+			if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+				if (element.classList.contains("lazyloaded") ) {
+					if (typeof window.jQuery != "undefined") {
+						if (jQuery.fn.fitVids) {
+							jQuery(element).parent().fitVids();
+						}
+					}
+				}
+			}
+		}
+	};
+	b.appendChild(s);
+}(window, document));
+
+// Listen to the Initialized event
+window.addEventListener('LazyLoad::Initialized', function (e) {
+	// Get the instance and puts it in the lazyLoadInstance variable
+	var lazyLoadInstance = e.detail.instance;
+
+	var observer = new MutationObserver(function(mutations) {
+		mutations.forEach(function(mutation) {
+			lazyLoadInstance.update();
+		} );
+	} );
+
+	var b      = document.getElementsByTagName("body")[0];
+	var config = { childList: true, subtree: true };
+
+	observer.observe(b, config);
+}, false);
+</script>
+</div> 
+</body>
+</html>
