@@ -7,12 +7,10 @@ body{
 .container{
   background-color: lightgreen;
   border-radius: 10px;
-  margin: 100px, auto;
+  margin: 100px auto;
   position: relative;
-  top: 0px;
-  z-index: 100px;
-  left: 110px;
-  width: 100%;
+  height: 600px;
+  width: 77%;
 }
 
 .container nav{
@@ -52,18 +50,19 @@ body{
 }
 
 figure{
-  
+
   background-color: #ffffff;
   border-radius: 10px;
   text-align: center;
   border:2px solid black;
   padding: 10px 20px 20px 20px;
+  width: 25%;
 }
 figure img{
-  width: 200px;
+  width: 90%;
 }
 
-#lil{
+#li1{
 
   position: absolute;
   left: 20%;
@@ -73,7 +72,7 @@ figure img{
   z-index: 10;
 }
 
-#lil2{
+#li2{
   position: absolute;
   left: 30%;
   top: 30%;
@@ -82,7 +81,7 @@ figure img{
   z-index: 6;
 }
 
-#lil3{
+#li3{
   position: absolute;
   left: 40%;
   top: 35%;
@@ -91,7 +90,7 @@ figure img{
   z-index: 4;
 }
 
-#lil4{
+#li4{
   position: absolute;
   left: 50%;
   top: 45%;
