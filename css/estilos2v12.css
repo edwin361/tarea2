@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 90%;
+	margin: 0px;
+}
+header{text-align: center;
+		color: grey;}
+nav{background-color: blue;
+	color: white;}
+nav div{display: inline-block;
+		padding: 10px;
+}
+a{
+	text-decoration: none;
+	text-decoration-color: white;
+	text-decoration-line: none;
+	color:white;
+}
+
+
+
+.fixed-sidebar{
+
+	display: none;
+	background-color: blue;
+	color: white;
+	height: 300px;
+	margin-top: 30px;
+	/*width: 15%; En este caso no haria falta.*/
+
+}
+section.flotantes{margin-left: 5%;}
+.flotante{
+	/*float: left;*/
+	border: 1px solid blue;
+	border-radius: 10px;
+	font-size: 0.8em;
+	padding: 10px;
+	height: auto;
+	margin-top: 30px;
+}
+
+.flotante img{
+	width: 50%;
+}
+
+.flotante li{list-style: none}
+
+.articulos{
+	column-count:1;
+	float: left;
+	width: 80%;
+	margin-left: 5%;
+	margin-top: 30px;
+}
+
+.articulos li{ /*Esto es por si tenemos listas*/
+	list-style: none
+}
+
+footer{
+	clear: both; /*Esto hace que el footer baje y se coloque abajo del todo*/
+	background-color: grey;
+	text-align: center;
+	padding: 20px;
+}
+span{
+	color: blue;
+}
+
+@media screen and (min-width:576px and max-width: 992px){
+	section.flotantes{
+		float: left;
+		width: 100%;
+	}
+	.flotante{
+		float: left;
+		width: 50%;
+
+	}
+
+	#tercera{
+	float: left;
+	width: 100%;}
+
+	.articulos{
+		column-count: 2;
+		float: left;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width:993px){
+	section.flotantes{
+		float: left;
+		width: 80%;
+	}
+	.flotante{
+		float: left;
+		width: 33.33%
+	}
+	.articulos{
+		column-count: 3;
+		float: left;
+		width: 80%;
+		margin-left:5%; 
+	}
+	.fixed-sidebar{
+		float: left;
+		width: 5%;
+		display:inline-block;
+	}
+} 
